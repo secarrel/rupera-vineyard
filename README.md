@@ -1,10 +1,10 @@
 # Rupera Vineyard
  ## Project Description
- For Milestone Project 1, I will be creating a website for the fictional Rupera Vineyard. HTML, CSS and Bootstrap will be the main languages used for this project. 
+ For Milestone Project 1, I will be creating a website for the fictional Rupera Vineyard. HTML, CSS and Bootstrap will be  used for this project. 
  
  ## Website goals:
  - Inform visitors of the offerings at the Vineyard.
- - Update them on events and give them the oportunity to book.
+ - Update them on events.
  - Tell the story of the vineyard
  - Showcase products and ethos
  - **main target: increaes visitor numbers at the vineyard**
@@ -33,7 +33,7 @@
  How does the content relate to eachother?
  What are the priority features? And how do we organise these?
 
- ### Surace
+ ### Surface
  What will the website actually look like? Colours/typography/images/animations/transitions
 
 
@@ -57,4 +57,6 @@
  - A fully documented account of the development life cycle procedures.
  - a clear, justified, rationale for a real-world application and a
 comprehensive explanation of how it will be developed.
+    
+
     

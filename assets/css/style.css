@@ -1,0 +1,68 @@
+/*---------------------------------------------------------------------- GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css?family=Grape Nuts:400|Cormorant Garamond:100,200,300,400,500,600,700,800,900');
+
+/*---------------------------------------------------------------------- BODY */
+
+body {
+    font-family: 'Grape Nuts'
+}
+
+/*-------------------------------------------------------nav bar */
+
+header {
+    margin: 0;
+}
+
+.navbar {
+    height: 100px;
+    background: rgb(34, 34, 34);
+}
+
+/*-------------------------------------------------------nav bar logo */
+
+.container-fluid {
+    padding-left: 0 !important;
+}
+
+
+.logo-container {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin: 0;
+    padding-right: 10px;
+    height: 100px;
+    background: rgb(203, 152, 0);
+}
+
+#rupera-vineyard-wide-logo:hover {
+    transform: scale(1.01);
+    transition: transform .5s;
+}
+
+/*-------------------------------------------------------nav menu items */
+
+.nav-menu-item {
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    letter-spacing: 2px !important;
+    font-size: 1.5em !important;
+    font-family: 'Grape Nuts' !important;
+    color: rgb(229, 229, 229);
+    text-decoration: none;
+
+}
+
+#upcoming-events-nav {
+    padding-right: 0px;
+
+}
+
+.btn {
+    padding: 0 40px !important;
+    font-weight: 600 !important;
+}
+
+.nav li a:hover {
+    color: rgb(203, 152, 0);
+}
