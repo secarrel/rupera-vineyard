@@ -1,16 +1,19 @@
-/*---------------------------------------------------------------------- GOOGLE FONTS */
+/*------------------------------------------------------------------------------------------ GOOGLE FONTS */
 @import url('https://fonts.googleapis.com/css?family=Grape Nuts:400|Cormorant Garamond:100,200,300,400,500,600,700,800,900');
 
-/*---------------------------------------------------------------------- BODY */
+/*------------------------------------------------------------------------------------------ BODY */
 
 body {
     font-family: 'Grape Nuts'
 }
 
-/*-------------------------------------------------------nav bar */
+/*---------------------------------------------------------------------------- HEADER */
+/*-------------------------------------------------------navbar */
 
 header {
     margin: 0;
+    position: fixed;
+    width: 100%
 }
 
 .navbar {
@@ -18,7 +21,7 @@ header {
     background: rgb(34, 34, 34);
 }
 
-/*-------------------------------------------------------nav bar logo */
+/*-------------------------------------------------------navbar logo */
 
 .container-fluid {
     padding-left: 0 !important;
@@ -40,11 +43,11 @@ header {
     transition: transform .5s;
 }
 
-/*-------------------------------------------------------nav menu items */
+/*-------------------------------------------------------navbar menu items */
 
 .nav-menu-item {
-    padding-left: 40px !important;
-    padding-right: 40px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
     letter-spacing: 2px !important;
     font-size: 1.5em !important;
     font-family: 'Grape Nuts' !important;
@@ -59,10 +62,78 @@ header {
 }
 
 .btn {
-    padding: 0 40px !important;
+    padding: 0 30px !important;
     font-weight: 600 !important;
 }
 
 .nav li a:hover {
     color: rgb(203, 152, 0);
+    transition-duration: .3s;
 }
+
+/*---------------------------------------------------------------------------- FOOTER */
+/*-------------------------------------------------------mini logo */
+footer {
+    background: rgb(34, 34, 34);
+    ;
+    color: rgb(229, 229, 229);
+    font-family: 'Grape Nuts';
+    font-size: 1.5em;
+    height: 120px;
+}
+
+footer img {
+    height: 100px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+footer img:hover {
+    opacity: 70%;
+    transition-duration: .3s;
+}
+
+/*-------------------------------------------------------footer navigation */
+
+.footer-nav {
+    font-size: 0.7em !important;
+    font-family: Cormorant Garamond;
+    margin: 45px 0;
+}
+
+.footer-nav p {
+    color: #8f5680;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.footer-nav a {
+    color: rgb(229, 229, 229);
+    text-decoration: none;
+}
+
+.footer-nav a:hover {
+    color: #8f5680;
+    transition-duration: .3s;
+}
+
+/*-------------------------------------------------------social media */
+
+.social-media i {
+    margin: 42px;
+    font-size: xx-large;
+    color: #8f5680;
+}
+
+.social-media i:hover {
+    color: #58304d;
+    transition-duration: .3s;
+}
+
+/*---------------------------------------------------------------------------- MAIN-HOME */
+
+/*-------------------------------------------------------nav menu items */
+
+/*---------------------------------------------------------------------------- BREAKPOINTS */
+
+@media only screen and (max-width: 1522px) {}
