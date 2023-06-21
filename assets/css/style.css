@@ -4,7 +4,7 @@
 /*------------------------------------------------------------------------------------------ BODY */
 
 body {
-    font-family: 'Grape Nuts'
+    font-family: "Cormorant Garamond";
 }
 
 /*---------------------------------------------------------------------------- HEADER */
@@ -12,7 +12,9 @@ body {
 
 header {
     margin: 0;
-    position: fixed;
+    margin-top: 0;
+    border-top: 0;
+    padding-top: 0;
     width: 100%
 }
 
@@ -21,10 +23,14 @@ header {
     background: rgb(34, 34, 34);
 }
 
+.nav {
+    margin-right: 20px;
+}
+
 /*-------------------------------------------------------navbar logo */
 
 .container-fluid {
-    padding-left: 0 !important;
+    padding: 0 !important;
 }
 
 
@@ -41,6 +47,7 @@ header {
 #rupera-vineyard-wide-logo:hover {
     transform: scale(1.01);
     transition: transform .5s;
+    overflow: hidden;
 }
 
 /*-------------------------------------------------------navbar menu items */
@@ -50,7 +57,7 @@ header {
     padding-right: 30px !important;
     letter-spacing: 2px !important;
     font-size: 1.5em !important;
-    font-family: 'Grape Nuts' !important;
+    font-family: "Cormorant Garamond" !important;
     color: rgb(229, 229, 229);
     text-decoration: none;
 
@@ -97,7 +104,7 @@ footer img:hover {
 
 .footer-nav {
     font-size: 0.7em !important;
-    font-family: Cormorant Garamond;
+    font-family: "Cormorant Garamond";
     margin: 45px 0;
 }
 
@@ -130,9 +137,82 @@ footer img:hover {
     transition-duration: .3s;
 }
 
-/*---------------------------------------------------------------------------- MAIN-HOME */
+/*---------------------------------------------------------------------------- MAIN-home*/
+/*-------------------------------------------------------hero section
 
-/*-------------------------------------------------------nav menu items */
+Styling is adapted from Code Institutes 'Love Running' project */
+
+
+/*--------------------------------------hero image */
+#hero-image {
+
+    width: 100%;
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+#hero-outer {
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1)
+    }
+
+    to {
+        transform: scale(1.1)
+    }
+}
+
+/*--------------------------------------cover text */
+#cover-text h2 {
+    color: rgb(229, 229, 229);
+    font-size: 300%;
+    font-weight: 600;
+}
+
+#cover-text h3 {
+    color: rgb(229, 229, 229);
+    font-size: 180%;
+    font-weight: 400;
+}
+
+#cover-text p {
+    color: #e3b4d9;
+    font-size: 110%;
+    font-style: italic;
+}
+
+#cover-text p strong {
+    color: rgb(229, 229, 229);
+}
+
+#cover-text {
+    font-family: "Cormorant Garamond";
+    letter-spacing: 3px;
+
+    width: 600px;
+    padding-top: auto;
+    padding-left: 10px;
+    position: absolute;
+    background-color: #58304d;
+    opacity: 60%;
+    top: 30%;
+    left: 120px;
+
+}
+
+/*-------------------------------------------------------Things to Enjoy Section */
+
+
+
 
 /*---------------------------------------------------------------------------- BREAKPOINTS */
 
