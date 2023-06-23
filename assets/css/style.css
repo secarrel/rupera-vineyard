@@ -7,6 +7,14 @@ body {
     font-family: "Cormorant Garamond";
 }
 
+strong {
+    color: rgb(229, 229, 229);
+}
+
+em {
+    color: rgb(229, 229, 229);
+}
+
 /*---------------------------------------------------------------------------- HEADER */
 /*-------------------------------------------------------navbar */
 
@@ -140,7 +148,7 @@ footer img:hover {
 /*---------------------------------------------------------------------------- MAIN-home*/
 /*-------------------------------------------------------hero section
 
-Styling is adapted from Code Institutes 'Love Running' project */
+Hero image styling is adapted from Code Institutes 'Love Running' project */
 
 
 /*--------------------------------------hero image */
@@ -153,12 +161,11 @@ Styling is adapted from Code Institutes 'Love Running' project */
     animation-fill-mode: forwards;
 }
 
+
 #hero-outer {
     width: 100%;
-    height: 800px;
     overflow: hidden;
     position: relative;
-
 }
 
 @keyframes hero-zoom {
@@ -167,14 +174,14 @@ Styling is adapted from Code Institutes 'Love Running' project */
     }
 
     to {
-        transform: scale(1.1)
+        transform: scale(1.09)
     }
 }
 
 /*--------------------------------------cover text */
 #cover-text h2 {
     color: rgb(229, 229, 229);
-    font-size: 300%;
+    font-size: 3.2em;
     font-weight: 600;
 }
 
@@ -186,13 +193,10 @@ Styling is adapted from Code Institutes 'Love Running' project */
 
 #cover-text p {
     color: #e3b4d9;
-    font-size: 110%;
+    font-size: 1.1em;
     font-style: italic;
 }
 
-#cover-text p strong {
-    color: rgb(229, 229, 229);
-}
 
 #cover-text {
     font-family: "Cormorant Garamond";
@@ -204,15 +208,68 @@ Styling is adapted from Code Institutes 'Love Running' project */
     position: absolute;
     background-color: #58304d;
     opacity: 60%;
-    top: 30%;
-    left: 120px;
+    top: 10%;
+    right: 120px;
 
 }
 
 /*-------------------------------------------------------Things to Enjoy Section */
 
+#things-to-enjoy {
+    padding: 50px 50px 10px 50px;
+    background-color: rgb(34, 34, 34);
+    color: rgb(229, 229, 229);
+    font-family: "Cormorant Garamond";
+    text-align: center;
+}
 
+#things-to-enjoy-carousel {
+    background: blue;
+    width: 60%;
+    margin: 30px 20%;
+    padding: 0
+}
 
+#things-to-enjoy h3 {
+    font-size: 3em
+}
+
+#things-to-enjoy-p {
+    padding: 50px 18%;
+    color: #e3b4d9;
+    font-size: 1.1em;
+}
+
+.carousel {
+    width: 60%;
+    overflow: hidden;
+    padding: 50px;
+
+}
+
+.carousel-caption {
+    background-color: #58304d;
+    opacity: 80%;
+}
+
+/*-------------------------------------------------------Upcoming Events Section */
+
+#upcoming-events-summary {
+    background-color: #58304d;
+    text-align: center;
+    vertical-align: middle;
+    padding: 50px 0 10px 0;
+    color: rgb(229, 229, 229);
+    font-family: "Cormorant Garamond";
+}
+
+#upcoming-events-summary h3 {
+    font-size: 3em
+}
+
+.gallery-container img {
+    height: 200px;
+}
 
 /*---------------------------------------------------------------------------- BREAKPOINTS */
 

@@ -37,11 +37,19 @@
  What will the website actually look like? Colours/typography/images/animations/transitions
 
 
+## Bugs
+### Carousel
+Not shuffling between images 
+
+### Resposive columns 
+Section 3 on home page not responsive
+
+## To do:
+- make all pages responsive
 
  ## Testing Process
 
- ### While creating the Website
- - tested css sheet by setting body background to brown. **Attach screenshot**
+ 
 
 ## Requirements
  **read-me must :**
@@ -67,3 +75,28 @@ white_grapes.jpg https://unsplash.com/photos/V_X0uBi_8eQ?utm_source=unsplash&utm
 vines_and_views.jpg Photo by David: https://www.pexels.com/photo/pathway-under-clouds-and-blue-sky-1277181/
 arty_red_grape.jpg  Photo by Pixabay: https://www.pexels.com/photo/grapes-vineyard-vine-purple-grapes-39511/
 wildflower_butterfly Photo by Andrew Patrick: https://www.pexels.com/photo/butterflies-on-flowers-in-meadow-13408190/
+iced_coffee.jpg Photo by Ánh Đặng: https://www.pexels.com/photo/iced-coffees-on-a-small-wooden-table-16446300/
+cafe_window Photo by Ksenia Chernaya: https://www.pexels.com/photo/interior-of-modern-cafe-with-big-window-4450335/
+menu_and_food Photo by ROMAN ODINTSOV: https://www.pexels.com/photo/vegetable-salad-served-on-table-with-beef-steak-in-restaurant-4551832/
+healthy_breakfast Photo by ROMAN ODINTSOV: https://www.pexels.com/photo/delicious-dessert-with-fruits-and-juice-on-table-4553031/
+working_in_cafe Photo by Tim Douglas : https://www.pexels.com/photo/colleagues-working-on-netbook-in-cafe-6205491/
+cafe_friends Photo by Sam Lion: https://www.pexels.com/photo/cheerful-asian-friends-resting-in-cafe-5709523/
+cakes Photo by flat hito: https://www.pexels.com/photo/bake-pastry-on-short-stem-cake-tray-863006/
+coffee Photo by Burst: https://www.pexels.com/photo/beverage-breakfast-cafe-caffeine-374147/
+wine_tasting1 Photo by Pavel Danilyuk: https://www.pexels.com/photo/woman-in-black-tank-top-holding-bottle-pouring-wine-on-clear-wine-glass-8775173/
+wine_tasting2 Photo by Pavel Danilyuk: https://www.pexels.com/photo/person-holding-clear-wine-glass-8775458/
+harvest Photo by Czapp Árpád: https://www.pexels.com/photo/woman-carrying-black-crate-10188044/
+walk_the_vines Photo by Jacob  Riesel : https://www.pexels.com/photo/woman-at-a-vineyard-14904749/
+meriachi_band Photo by Mikhail Nilov: https://www.pexels.com/photo/men-in-black-and-white-suit-playing-a-guitar-8919080/
+sing_song Photo by Ronê Ferreira: https://www.pexels.com/photo/people-gathering-in-room-2735037/
+live_music Photo by Wendy Wei: https://www.pexels.com/photo/photo-of-band-performing-on-stage-2724670/
+pizza_party1 Photo by Kindel Media: https://www.pexels.com/photo/woman-holding-pizza-slice-7148991/
+pizza_party2 Photo by Kindel Media: https://www.pexels.com/photo/woman-eating-pizza-7148990/
+pizza_party3 Photo by Kindel Media: https://www.pexels.com/photo/three-women-eating-pizza-7148992/
+cheese_wine1 Photo by Pixabay: https://www.pexels.com/photo/close-up-of-wine-and-fruits-248413/
+cheese_wine2 Photo by Cup of  Couple: https://www.pexels.com/photo/a-wine-bottle-near-the-wooden-plate-with-cheese-and-grapes-8473177/
+taco_tuesdays1 Photo by ROMAN ODINTSOV: https://www.pexels.com/photo/tacos-on-a-cutting-board-juice-in-glass-and-spices-4958641/
+taco_tuesdays2 Photo by ROMAN ODINTSOV: https://www.pexels.com/photo/mexican-tacos-with-salsa-4958731/
+mariachi_band2 Photo by Mikhail Nilov: https://www.pexels.com/photo/man-and-woman-playing-musical-instruments-8919727/
+taco_tuesday3 Photo by Anna Tarazevich: https://www.pexels.com/photo/smiling-woman-playing-the-ukulele-8479706/
+mariachi_band3 Photo by Mikhail Nilov: https://www.pexels.com/photo/a-mariachi-band-playing-at-a-bar-8919751/
