@@ -23,16 +23,17 @@ header {
     margin-top: 0;
     border-top: 0;
     padding-top: 0;
-    width: 100%
 }
 
 .navbar {
-    height: 100px;
     background: rgb(34, 34, 34);
+    padding: 0;
 }
 
-.nav {
-    margin-right: 20px;
+.topnav {
+    margin: 0px;
+    padding-top: 10px;
+    letter-spacing: 3px;
 }
 
 /*-------------------------------------------------------navbar logo */
@@ -43,22 +44,15 @@ header {
 
 
 .logo-container {
-    display: flex;
-    justify-content: left;
-    align-items: left;
     margin: 0;
-    padding-right: 10px;
     height: 100px;
-    background: rgb(203, 152, 0);
-}
-
-#rupera-vineyard-wide-logo:hover {
-    transform: scale(1.01);
-    transition: transform .5s;
-    overflow: hidden;
 }
 
 /*-------------------------------------------------------navbar menu items */
+
+.icon-nav {
+    display: none;
+}
 
 .nav-menu-item {
     padding-left: 30px !important;
@@ -68,29 +62,33 @@ header {
     font-family: "Cormorant Garamond" !important;
     color: rgb(229, 229, 229);
     text-decoration: none;
-
 }
 
-#upcoming-events-nav {
-    padding-right: 0px;
 
+#contact-us-nav {
+    color: rgb(203, 152, 0);
+    text-decoration: none;
 }
 
-.btn {
-    padding: 0 30px !important;
-    font-weight: 600 !important;
-}
-
-.nav li a:hover {
+.nav-item a:hover {
     color: rgb(203, 152, 0);
     transition-duration: .3s;
+}
+
+.topnav a.active {
+    color: white;
+    text-decoration: underline;
+}
+
+.topnav .bar-icon {
+    display: none;
+
 }
 
 /*---------------------------------------------------------------------------- FOOTER */
 /*-------------------------------------------------------mini logo */
 footer {
     background: rgb(34, 34, 34);
-    ;
     color: rgb(229, 229, 229);
     font-family: 'Grape Nuts';
     font-size: 1.5em;
@@ -216,26 +214,28 @@ Hero image styling is adapted from Code Institutes 'Love Running' project */
 /*-------------------------------------------------------Things to Enjoy Section */
 
 #things-to-enjoy {
-    padding: 50px 50px 10px 50px;
+    padding: 50px;
     background-color: rgb(34, 34, 34);
     color: rgb(229, 229, 229);
     font-family: "Cormorant Garamond";
     text-align: center;
+    text-decoration: none !important;
 }
 
 #things-to-enjoy-carousel {
-    background: blue;
     width: 60%;
     margin: 30px 20%;
     padding: 0
 }
 
 #things-to-enjoy h3 {
-    font-size: 3em
+    font-size: 3em;
+    text-decoration: none;
+
 }
 
 #things-to-enjoy-p {
-    padding: 50px 18%;
+    padding: 50px;
     color: #e3b4d9;
     font-size: 1.1em;
 }
@@ -253,24 +253,246 @@ Hero image styling is adapted from Code Institutes 'Love Running' project */
 }
 
 /*-------------------------------------------------------Upcoming Events Section */
-
+/* -- sizing each element --*/
 #upcoming-events-summary {
     background-color: #58304d;
     text-align: center;
     vertical-align: middle;
-    padding: 50px 0 10px 0;
+    padding: 50px;
     color: rgb(229, 229, 229);
     font-family: "Cormorant Garamond";
+}
+
+.caption-event-summary {
+    margin: 20px 0;
 }
 
 #upcoming-events-summary h3 {
     font-size: 3em
 }
 
+#upcoming-events-summary h5 {
+    font-size: 2em;
+    letter-spacing: 2px;
+    padding-top: 10px;
+}
+
+#upcoming-events-summary p {
+    font-size: 1.2em;
+    width: 500px;
+    margin: auto;
+    padding: 10px 20px;
+}
+
 .gallery-container img {
     height: 200px;
+    padding: 5px;
+}
+
+/* -- positioning --*/
+
+#live-band-and-pizza,
+#taco-tuesday,
+#cheese-and-wine {
+    display: inline-flex;
+    margin-bottom: 20px;
+}
+
+/*-- seperation design--*/
+.gallery-container div {
+    background-color: #23161f96;
 }
 
 /*---------------------------------------------------------------------------- BREAKPOINTS */
+@media only screen and (min-width: 1000px) {
+    #rupera-vineyard-logo-grapes-above {
+        display: none;
+    }
+}
 
-@media only screen and (max-width: 1522px) {}
+@media only screen and (max-width: 1570px) {
+    /*--header styling, nav below logo --*/
+
+    .logo-container {
+        display: block;
+        margin: center;
+    }
+
+    .full-size-nav {
+        padding-top: 10px;
+    }
+
+    .container-fluid {
+        justify-content: center !important;
+    }
+
+    /*--hero image and cover text resized --*/
+
+    #cover-text {
+        width: 500px;
+        padding: 0 20px;
+        background-color: #58304d;
+        opacity: 60%;
+        top: 5%;
+        right: 5%;
+    }
+
+    #cover-text h2 {
+        color: rgb(229, 229, 229);
+        font-size: 2.5em;
+        font-weight: 600;
+    }
+
+    #cover-text h3 {
+        color: rgb(229, 229, 229);
+        font-size: 1.5em;
+        font-weight: 400;
+    }
+
+    #cover-text p {
+        color: #e3b4d9;
+        font-size: 1em;
+        font-style: italic;
+    }
+
+    /*-- Things to enjoy--*/
+
+    #things-to-enjoy-carousel {
+        width: 90%;
+        margin: auto;
+        padding: 10px;
+
+    }
+
+    #things-to-enjoy-p {
+        padding: 0;
+    }
+
+    /*-- Upcoming Events --*/
+
+    #live-band-and-pizza,
+    #taco-tuesday,
+    #cheese-and-wine {
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+
+    /*--logo centered and swapped with narrower logo--*/
+    #rupera-vineyard-wide-logo {
+        display: none;
+    }
+
+    .logo-container {
+        display: block;
+        position: relative;
+        height: 200px;
+        width: 100%;
+    }
+
+    #rupera-vineyard-logo-grapes-above img {
+        max-width: 350px;
+        position: relative;
+        display: block;
+        margin: auto;
+    }
+
+    /*--navbar displayed as 'bars' icon--*/
+
+    .topnav {
+        display: block;
+        width: 100%;
+    }
+
+    .full-size-nav {
+        display: none;
+    }
+
+    .icon-nav {
+        display: block;
+    }
+
+
+    /*-- Cover text on hero image loses p text and repositioned--*/
+    #hero-outer {
+        position: relative;
+    }
+
+    #hero-outer img {
+        position: relative;
+        height: 400px;
+        width: auto;
+        object-fit: cover;
+        object-position: 50% 50%;
+    }
+
+    #cover-text {
+        position: absolute;
+        width: 100%;
+        height: 100px;
+        padding: 10px;
+        background-color: #58304d;
+        opacity: 80%;
+        top: 10px;
+        right: 0;
+    }
+
+    #cover-text h2 {
+        color: rgb(229, 229, 229);
+        font-size: 1.5em !important;
+        font-weight: 600;
+        text-align: right;
+    }
+
+    #cover-text h3 {
+        color: rgb(229, 229, 229);
+        font-size: 1em !important;
+        font-weight: 100;
+        text-align: right;
+    }
+
+    #cover-text p {
+        color: #e3b4d9;
+        font-size: 1em;
+        font-style: italic;
+        visibility: hidden;
+    }
+
+    /*-- Things to enjoy --*/
+
+    #things-to-enjoy {
+        padding: 20px 5px;
+    }
+
+    .carousel img {
+        width: 100%;
+
+    }
+
+    /*-- upcoming events --*/
+
+    #upcoming-events-summary {
+        padding: 20px 0;
+        margin: auto;
+    }
+
+    #upcoming-events-summary p {
+        font-size: 1.2em;
+        width: 90%;
+        margin: auto;
+        padding: 10px 20px;
+    }
+
+    #cheese-and-wine {
+        margin-bottom: 0;
+    }
+
+    .gallery-container img {
+        width: 95%;
+        height: auto;
+        padding: 5px;
+    }
+
+}

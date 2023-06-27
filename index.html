@@ -16,33 +16,73 @@
 
 <body>
     <header>
-        <div>
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid">
-                    <div class="logo-container">
-                        <a id="rupera-vineyard-wide-logo" href="#"> <img
-                                src="assets/images/grapes_rupera_vineyard_wide.png" alt="Rupera Vineyard Logo"></a>
-                    </div>
+        <nav class="navbar">
+            <div class="container-fluid">
+                <div class="logo-container">
+                    <a id="rupera-vineyard-wide-logo" href="index.html"> <img
+                            src="assets/images/grapes_rupera_vineyard_wide.png" alt="Rupera Vineyard Logo"></a>
+                    <a id="rupera-vineyard-logo-grapes-above" href="index.html"> <img
+                            src="assets/images/full_logo_grapes_above.png" alt="Rupera Vineyard Logo"></a>
+                </div>
+                <div class="full-size-nav">
                     <ul class="nav">
                         <li class="nav-item">
-                            <a href="#" id="home-nav" class="nav-menu-item">Home</a>
+                            <a href="index.html" id="home-nav" class="nav-menu-item">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" id="vineyard-nav" class="nav-menu-item">Vineyard</a>
+                            <a href="vineyard.html" id="vineyard-nav" class="nav-menu-item">Vineyard</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" id="cafe-nav" class="nav-menu-item">Cafe</a>
+                            <a href="cafe.html" id="cafe-nav" class="nav-menu-item">Cafe</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" id="upcoming-events-nav" class="nav-menu-item">Upcoming Events</a>
+                            <a href="upcoming_events.html" id="upcoming-events-nav" class="nav-menu-item">Upcoming
+                                Events</a>
                         </li>
-                        <li class="nav-item">
-                            <button type="button" class="btn btn-outline-warning nav-menu-item">Contact Us</button>
+                        <li class="nav-button">
+                            <button type="button" href="contact_us.html" class="btn btn-outline-warning nav-menu-item">
+                                <a href="contact_us.html" id="contact-us-nav"> Contact Us</a>
+                            </button>
                         </li>
                     </ul>
                 </div>
-            </nav>
-        </div>
+                <div class="icon-nav">
+                    <div class="topnav collapse" id="mytopnav navbarToggleExternalContent" data-bs-theme="dark">
+                        <ul class="nav bg-dark p-4">
+                            <li class="nav-item">
+                                <a href="index.html" id="home-nav" class="nav-menu-item">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="vineyard.html" id="vineyard-nav" class="nav-menu-item">Vineyard</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="cafe.html" id="cafe-nav" class="nav-menu-item">Cafe</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="upcoming_events.html" id="upcoming-events-nav" class="nav-menu-item">Upcoming
+                                    Events</a>
+                            </li>
+                            <li class="nav-button">
+                                <button type="button" href="contact_us.html"
+                                    class="btn btn-outline-warning nav-menu-item">
+                                    <a href="contact_us.html" id="contact-us-nav"> Contact Us</a>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                    <nav class="navbar navbar-dark bg-dark">
+                        <div class="container-fluid">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarToggleExternalContent"
+                                aria-controls="navbarToggleExternalContent" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </nav>
     </header>
     <main class="container-fluid">
         <section id="hero-outer">
@@ -147,11 +187,11 @@
             <h3>Upcoming Events</h3>
             <br>
             <div class="gallery-container text-center">
-                <div class="row align-items-center upcoming-events-summary-gallery" id="live-band-and-pizza">
-                    <a target="_blank" href="assets/images/pizza_party3.jpg" class="col-4">
+                <div class="align-items-center upcoming-events-summary-gallery" id="live-band-and-pizza">
+                    <a target="_blank" href="assets/images/pizza_party3.jpg">
                         <img src="assets/images/pizza_party3.jpg" alt="Forest" class="image-left">
                     </a>
-                    <span class="col-4 caption-events-summary" id="live-band-and-pizza-caption">
+                    <span class="caption-events-summary" id="live-band-and-pizza-caption">
                         <h5>Live Band and pizza</h5>
                         <p>
                             Enjoy hearing talented musicians from the local area? Then friday nights are the time to
@@ -161,16 +201,16 @@
                             Thirsty? Our cafe turns into a cosy bar at night to supply you with your beverage of choice.
                         </p>
                     </span>
-                    <a target="_blank" href="assets/images/sing_song.jpg" class="col-4">
+                    <a target="_blank" href="assets/images/sing_song.jpg">
                         <img src="assets/images/sing_song.jpg" alt="Northern Lights" class="image-right">
                     </a>
                 </div>
                 <br>
-                <div class="row align-items-center upcoming-events-summary-gallery" id="taco-tuesday">
-                    <a target="_blank" href="assets/images/taco_tuesdays1_crop.jpg" class="col-4">
-                        <img src="assets/images/taco_tuesdays1_crop.jpg" alt="taco and cocktail">
+                <div class="align-items-center upcoming-events-summary-gallery" id="taco-tuesday">
+                    <a target="_blank" href="assets/images/taco_tuesdays1_crop.jpg">
+                        <img src="assets/images/taco_tuesdays1_crop.jpg" alt="taco and cocktail" class="image-left">
                     </a>
-                    <span class="col-4 caption-events-summary" id="taco-caption">
+                    <span class="caption-events-summary" id="taco-caption">
                         <h5>Taco Tuesdays</h5>
                         <p>
                             Our mexican themed evenings are held every tuesday and are always popular. We have a local
@@ -182,15 +222,15 @@
                             down the tacos.
                         </p>
                     </span>
-                    <a target="_blank" href="assets/images/mariachi_band.jpg" class="col-4">
+                    <a target="_blank" href="assets/images/mariachi_band.jpg">
                         <img src="assets/images/mariachi_band.jpg" alt="Cinque Terre" class="image-right">
                     </a>
                 </div>
                 <br>
-                <div class="row align-items-center upcoming-events-summary-gallery" id="cheese-and-wine">
-                    <a target="_blank" href="assets/images/cheese_wine2.jpg" class="col-4">
-                        <img src="assets/images/cheese_wine2.jpg" alt="Northern Lights" class="image-right">
-                    </a><span class="col-4 caption-events-summary" id="cheese-and-wine-caption">
+                <div class="align-items-center upcoming-events-summary-gallery" id="cheese-and-wine">
+                    <a target="_blank" href="assets/images/cheese_wine2.jpg">
+                        <img src="assets/images/cheese_wine2.jpg" alt="Northern Lights" class="image-left">
+                    </a><span class="caption-events-summary" id="cheese-and-wine-caption">
                         <h5>Cheese and Wine Evening</h5>
                         <p>
                             Celebrate local wines and those from a little further afield with the perfect
@@ -201,7 +241,7 @@
                             enthusiasts.
                         </p>
                     </span>
-                    <a target="_blank" href="assets/images/wine_tasting1.jpg" class="col-4">
+                    <a target="_blank" href="assets/images/wine_tasting1.jpg">
                         <img src="assets/images/wine_tasting1.jpg" alt="Northern Lights" class="image-left">
                     </a>
                 </div>

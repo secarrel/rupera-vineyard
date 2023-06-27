@@ -14,28 +14,47 @@
 
  ## UX
  ### Strategy
- What are we hoping to achieve in the first place and for whome?
- Is the content relevant?
- Why is this special?
- Why would a user want this?
- Competitor Review.
- B2B or B2C?
+ *to consider...*
+ - *What are we hoping to achieve in the first place and for whome?*
+ - *Is the content relevant?*
+ - *Why is this special?*
+ - *Why would a user want this?*
+ - *Competitor Review*
+
+ Aims:
+ - outline what facilities are at the vineyard (cafe/vineyard/meadows)
+ - provide details of activities and events that are coming up
+ - provide contact information so they can get in touch about visiting
+ 
+ target audience:
+ -  interested in wine and viticulture
+ -  looking for a lunch or coffee spot
+ -  looking for fun events to attend with friends
+ -  looking for a nice envrionment to work from
+
 
  ### Scope
- What features should we include in the website, based on the strategy?
+ *to consider...*
+ - *What features should we include in the website, based on the strategy?*
+
+Aims:
+- a page describing main facilities (vineyard and cafe)
+- a page listing and descibing upcoming events with details of times
+- a contact form
+- pictures to describe atmosphere and food
+- 'contact us' buttons for ease
 
  ### Structure
- Is the content logically grouped?
- Is the content the visitors want available and easy to find?
+ - *Is the content logically grouped?*
+ - *Is the content the visitors want available and easy to find?*
 
  ### Skeleton
- How will the user navigate through the information and features?
- How does the content relate to eachother?
- What are the priority features? And how do we organise these?
+ - *How will the user navigate through the information and features?*
+ - *How does the content relate to eachother?*
+ - *What are the priority features? And how do we organise these?*
 
  ### Surface
- What will the website actually look like? Colours/typography/images/animations/transitions
-
+ - *What will the website actually look like? Colours/typography/images/animations/transitions*
 
 ## Bugs
 ### Carousel
@@ -43,6 +62,8 @@ Not shuffling between images
 
 ### Resposive columns 
 Section 3 on home page not responsive
+
+### nav position between breakpoints
 
 ## To do:
 - make all pages responsive
@@ -63,11 +84,10 @@ Section 3 on home page not responsive
  - Explain design for manual testing procedures and show results of testing.
  - A clear rationale fr the development of the project. Demonstrating a clear , well defined purpose, addressing needs of and user stories for a particular target audience.
  - A fully documented account of the development life cycle procedures.
- - a clear, justified, rationale for a real-world application and a
-comprehensive explanation of how it will be developed.
+ - a clear, justified, rationale for a real-world application and a comprehensive explanation of how it will be developed.
     
 
-    images:
+    image sources:
 
 look_down_the_row https://unsplash.com/photos/xJaH5xwVJ_Y?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 red_grapes.jpg https://unsplash.com/photos/GStG5UkTeOE?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
