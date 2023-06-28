@@ -204,6 +204,11 @@ Hero image styling is adapted from Code Institutes 'Love Running' project */
     font-size: 1.1em;
 }
 
+#things-to-enjoy-p a {
+    text-decoration: none !important;
+    color: rgb(203, 152, 0);
+}
+
 .carousel {
     width: 60%;
     overflow: hidden;
@@ -266,6 +271,31 @@ Hero image styling is adapted from Code Institutes 'Love Running' project */
 .gallery-container div {
     background-color: #23161f96;
 }
+
+/*---------------------------------------------------------------------------- RETURN TO TOP*/
+
+.return-to-top a {
+    position: fixed;
+    height: 50px;
+    width: 60px;
+    bottom: 40px;
+    right: 50px;
+    border-radius: 20%;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 3em;
+    color: rgb(229, 229, 229);
+    text-decoration: none;
+    animation-name: arrow-appear;
+    animation-duration: 5s;
+}
+
+.return-to-top a:hover {
+    color: rgb(203, 152, 0);
+    bottom: 43px;
+    transition: .2s;
+}
+
 
 /*---------------------------------------------------------------------------- BREAKPOINTS */
 @media only screen and (min-width: 1000px) {
