@@ -16,7 +16,7 @@ em {
 }
 
 /*---------------------------------------------------------------------------- HEADER */
-/*-------------------------------------------------------navbar */
+/*----------------------------------------------navbar */
 
 header {
     margin: 0;
@@ -36,7 +36,7 @@ header {
     letter-spacing: 3px;
 }
 
-/*-------------------------------------------------------navbar logo */
+/*---------------------------------------------navbar logo */
 
 .container-fluid {
     padding: 0 !important;
@@ -48,12 +48,14 @@ header {
     height: 100px;
 }
 
-/*-------------------------------------------------------navbar menu items */
+/*---------------------------------------------navbar menu items */
 
+/*hiding nav*/
 .icon-nav {
     display: none;
 }
 
+/*nav menu display*/
 .nav-menu-item {
     padding-left: 30px !important;
     padding-right: 30px !important;
@@ -64,76 +66,40 @@ header {
     text-decoration: none;
 }
 
+.nav-item {
+    padding-top: 5px;
+}
+
+.nav-button {
+    margin-right: 20px;
+    ;
+}
 
 #contact-us-nav {
     color: rgb(203, 152, 0);
     text-decoration: none;
 }
 
+/*interactive nav buttons*/
 .nav-item a:hover {
     color: rgb(203, 152, 0);
     transition-duration: .3s;
 }
 
-.topnav a.active {
-    color: white;
-    text-decoration: underline;
-}
-
-.topnav .bar-icon {
-    display: none;
-
-}
-
 /*---------------------------------------------------------------------------- FOOTER */
-/*-------------------------------------------------------mini logo */
+
 footer {
     background: rgb(34, 34, 34);
     color: rgb(229, 229, 229);
-    font-family: 'Grape Nuts';
     font-size: 1.5em;
-    height: 120px;
-}
-
-footer img {
     height: 100px;
-    margin: 10px;
-    border-radius: 50%;
 }
 
-footer img:hover {
-    opacity: 70%;
-    transition-duration: .3s;
-}
-
-/*-------------------------------------------------------footer navigation */
-
-.footer-nav {
-    font-size: 0.7em !important;
-    font-family: "Cormorant Garamond";
-    margin: 45px 0;
-}
-
-.footer-nav p {
-    color: #8f5680;
-    text-decoration: none;
-    font-weight: 800;
-}
-
-.footer-nav a {
-    color: rgb(229, 229, 229);
-    text-decoration: none;
-}
-
-.footer-nav a:hover {
-    color: #8f5680;
-    transition-duration: .3s;
-}
-
-/*-------------------------------------------------------social media */
+/*social media */
 
 .social-media i {
-    margin: 42px;
+    margin: 35px;
+
     font-size: xx-large;
     color: #8f5680;
 }
@@ -148,12 +114,9 @@ footer img:hover {
 
 Hero image styling is adapted from Code Institutes 'Love Running' project */
 
-
-/*--------------------------------------hero image */
+/*hero image styling*/
 #hero-image {
-
     width: 100%;
-
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -166,6 +129,7 @@ Hero image styling is adapted from Code Institutes 'Love Running' project */
     position: relative;
 }
 
+/*zoom hero image when page loads*/
 @keyframes hero-zoom {
     from {
         transform: scale(1)
@@ -176,7 +140,7 @@ Hero image styling is adapted from Code Institutes 'Love Running' project */
     }
 }
 
-/*--------------------------------------cover text */
+/*cover text styling*/
 #cover-text h2 {
     color: rgb(229, 229, 229);
     font-size: 3.2em;
@@ -494,5 +458,4 @@ Hero image styling is adapted from Code Institutes 'Love Running' project */
         height: auto;
         padding: 5px;
     }
-
 }
