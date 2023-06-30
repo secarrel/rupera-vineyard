@@ -16,13 +16,15 @@
 
 <body>
     <header>
-        <div class="">
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid">
-                    <div class="logo-container overflow-y-hidden overflow-x-hidden">
-                        <a id="rupera-vineyard-wide-logo" href="#"> <img
-                                src="assets/images/grapes_rupera_vineyard_wide.png" alt="Rupera Vineyard Logo"></a>
-                    </div>
+        <nav class="navbar">
+            <div class="container-fluid">
+                <div class="logo-container">
+                    <a id="rupera-vineyard-wide-logo" href="index.html"> <img
+                            src="assets/images/grapes_rupera_vineyard_wide.png" alt="Rupera Vineyard Logo"></a>
+                    <a id="rupera-vineyard-logo-grapes-above" href="index.html"> <img
+                            src="assets/images/full_logo_grapes_above.png" alt="Rupera Vineyard Logo"></a>
+                </div>
+                <div class="full-size-nav">
                     <ul class="nav">
                         <li class="nav-item">
                             <a href="index.html" id="home-nav" class="nav-menu-item">Home</a>
@@ -44,87 +46,154 @@
                         </li>
                     </ul>
                 </div>
-            </nav>
-        </div>
+                <div class="icon-nav">
+                    <div class="topnav navbar-collapse collapse" id="mytopnav" data-theme="dark" style>
+                        <ul class="nav bg-dark">
+                            <li class="nav-item active">
+                                <a href="index.html" id="home-nav" class="nav-menu-item">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="vineyard.html" id="vineyard-nav" class="nav-menu-item">Vineyard</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="cafe.html" id="cafe-nav" class="nav-menu-item">Cafe</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="upcoming_events.html" id="upcoming-events-nav" class="nav-menu-item">Upcoming
+                                    Events</a>
+                            </li>
+                            <li class="nav-button">
+                                <button type="button" href="contact_us.html"
+                                    class="btn btn-outline-warning nav-menu-item">
+                                    <a href="contact_us.html" id="contact-us-nav"> Contact Us</a>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                    <nav class="navbar navbar-dark bg-dark">
+                        <div class="container-fluid">
+                            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                                data-target="#mytopnav" aria-controls="mytopnav" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </nav>
     </header>
-    <main>
-        upcoming events
-    </main>
-    </main>
-    <footer class="container-fluid text-center">
-        <div class="row">
-            <div class="col order-last">
-                <ul class="list-inline social-media">
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                            <span class="sr-only">Facebook</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                            <span class="sr-only">Twitter</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
-                            <span class="sr-only">Instagram</span>
-                        </a>
-                    </li>
-                </ul>
+    <main class="container-fluid">
+        <section class="events-intro-section">
+            <h2>You won't want to miss this...</h2>
+        </section>
+        <section class="upcoming-events-timeline-section row">
+            <div class="events-section-title">
+                <h3>
+                    Upcoming Events
+                </h3>
             </div>
-            <div class="col">
-                <ul class="list-inline footer-nav">
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            Home
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <p>|</p>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            Vineyard
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <p>|</p>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            Cafe
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <p>|</p>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            Upcoming Events
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <p>|</p>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            Contact Us
-                        </a>
-                    </li>
-                </ul>
+            <div class="plan-items-left-col col-6">
+                <div class="plan-item-left">
+                    <div class="item-background">
+                        <h4>Butterfly Safari</h4>
+                        <p><strong>28th July 2023</strong></p>
+                        <p><strong>14:00</strong></p>
+                        <p>Join a butterfly expert for a walk around our wild flower meadows.
+                            They'll help you to identify and understand butterfly habitat and
+                            behaviour.</p>
+                    </div>
+                </div>
+                <div class="plan-item-left">
+                    <div class="item-background">
+                        <h4>Counryside Walk</h4>
+                        <p><strong>14th August 2023</strong></p>
+                        <p><strong>10:00</strong></p>
+                        <p>Organised by local walking group 'Monmouth Marchers'. Enjoy the
+                            natural beauty of our countryside and a chat in the cafe
+                            to finsih!</p>
+                    </div>
+                </div>
+                <div class="plan-item-left">
+                    <div class="item-background">
+                        <h4>Halloween</h4>
+                        <p><strong>31st October 2023</strong></p>
+                        <p><strong>19:00</strong></p>
+                        <p>Things get spooky here at halloween. We welcome adults and
+                            children to play gross party games and disco dance like dracula.</p>
+                    </div>
+                </div>
             </div>
-            <div class="col order-first">
-                <a id="rupera-vineyard-wide-logo" href="#"> <img src="assets/images/grapes_rv_zoom.png"
-                        alt="Rupera Vineyard Logo">
+            <div class="plan-items-right-col col-6">
+                <div class="plan-item-right">
+                    <div class="item-background">
+                        <h4>Garden Party</h4>
+                        <p><strong>4th August 2023</strong></p>
+                        <p><strong>13:00</strong></p>
+                        <p>Join us in our cafe gardens for afternoon tea and a glass of our
+                            sparkling wine. Live music and lawn games add to the fun! </p>
+                    </div>
+                </div>
+                <div class="plan-item-right">
+                    <div class="item-background">
+                        <h4>Outdoor Cinema</h4>
+                        <p><strong>10th September 2023</strong></p>
+                        <p><strong>19:00</strong></p>
+                        <p>Fire pits for warmth, fresh popcorn, hot chocolate - what
+                            could be better while watching a film with your friends under
+                            the stars?
+                        </p>
+                    </div>
+                </div>
+                <div class="plan-item-right">
+                    <div class="item-background">
+                        <h4>Harvest</h4>
+                        <p><strong>October - TBC </strong></p>
+                        <p><strong>08:00</strong></p>
+                        <p>Harvest our grapes with us to see what goes into making our wine!
+                            We start early and finish early. Lunch and a glass of wine is
+                            provided to say thanks for your help.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="weekly-events-section">
+
+
+        </section>
+        <section class="return-to-top-section">
+            <div class="return-to-top">
+                <a href="upcoming_events.html" id="return-to-top-link">
+                    <i class="fa fa-arrow-up fa-bounce"></i>
                 </a>
             </div>
+        </section>
+    </main>
+    <footer class="container-fluid text-center">
+        <div class="social-media">
+            <ul class="list-inline social-media">
+                <li class="list-inline-item">
+                    <a target="_blank" href="#">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                        <span class="sr-only">Facebook</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="#">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <span class="sr-only">Twitter</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="#">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                        <span class="sr-only">Instagram</span>
+                    </a>
+                </li>
+            </ul>
         </div>
-        </div>
-        </span>
-
     </footer>
 </body>
 

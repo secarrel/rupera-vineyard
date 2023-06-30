@@ -4,7 +4,8 @@
 /*------------------------------------------------------------------------------------------ BODY */
 
 body {
-    font-family: "Cormorant Garamond";
+    font-family: "Cormorant Garamond" !important;
+    margin: 10px;
 }
 
 strong {
@@ -163,7 +164,6 @@ Hero image styling is adapted from Code Institutes 'Love Running' project */
 #cover-text {
     font-family: "Cormorant Garamond";
     letter-spacing: 3px;
-
     width: 600px;
     padding-top: auto;
     padding-left: 10px;
@@ -222,7 +222,6 @@ Hero image styling is adapted from Code Institutes 'Love Running' project */
 }
 
 /*-------------------------------------------------------Upcoming Events Section */
-/* -- sizing each element --*/
 #upcoming-events-summary {
     background-color: #58304d;
     text-align: center;
@@ -272,18 +271,285 @@ Hero image styling is adapted from Code Institutes 'Love Running' project */
     background-color: #23161f96;
 }
 
+/*---------------------------------------------------------------------------- VINEYARD - MAIN*/
+/*Intro Image and Title */
+
+.vineyard-intro {
+    background-image: url(https://images.unsplash.com/photo-1602574923828-853dbbc27277?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1935&q=80);
+    background-color: #58304d;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 70%;
+    background-size: cover;
+    margin: 0;
+}
+
+.vineyard-intro h2 {
+    background-color: #58304d;
+    color: rgb(229, 229, 229);
+    ;
+    max-width: 600px;
+    padding: 20px;
+    opacity: 80%;
+    text-align: center;
+    margin: auto;
+    font-size: 3.5em;
+
+}
+
+/*----About the Vineyard----*/
+
+.the-facts {
+    margin: 0;
+    padding: 0;
+    background-color: #58304d;
+}
+
+.about-the-vineyard {
+    background-color: rgb(34, 34, 34);
+    color: rgb(229, 229, 229);
+    font-family: "Cormorant Garamond";
+    text-align: center;
+    padding: 20px;
+}
+
+.about-the-vineyard h3 {
+    padding-top: 30px;
+    font-size: 3em;
+    text-decoration: none;
+    color: rgb(203, 152, 0);
+}
+
+/*vineyard facts*/
+.vineyard-facts {
+    display: inline-block;
+    background-color: rgb(34, 34, 34)
+}
+
+
+.vineyard-facts img {
+    max-width: 49%;
+}
+
+.left-about {
+    float: left;
+    color: rgb(229, 229, 229);
+    text-align: center;
+    width: 50%;
+    padding: 5px;
+}
+
+.left-about p {
+    padding: 20px;
+}
+
+.left-about h4 {
+    padding-top: 10px;
+    font-size: 1.8em;
+    color: #e3b4d9;
+    font-weight: 800;
+}
+
+.right-about {
+    float: right;
+    width: 50%;
+    color: rgb(229, 229, 229);
+    text-align: center;
+    padding: 5px;
+}
+
+.right-about p {
+    padding: 20px;
+}
+
+.right-about h4 {
+    padding-top: 10px;
+    font-size: 1.8em;
+    color: #e3b4d9;
+    font-weight: 800;
+}
+
+/*----Join Us in The Vines----*/
+
+.join-us-section {
+    padding: 40px;
+    text-align: center;
+    background-color: #58304d;
+}
+
+.join-us-in-the-vines {
+    color: rgb(229, 229, 229);
+}
+
+.join-us-in-the-vines h3 {
+    font-size: 3em;
+    text-decoration: none;
+    color: rgb(203, 152, 0);
+}
+
+/* Join us items */
+
+.join-us-item {
+    background-color: #58304d !important;
+    display: inline-flex;
+    margin: 5px;
+}
+
+.title-vineyard {
+    display: inline-block;
+    width: 100%;
+}
+
+.join-us-caption {
+    text-align: center;
+    color: rgb(229, 229, 229);
+}
+
+.join-us-caption h5 {
+    font-size: 1.8em;
+    letter-spacing: 2px;
+    margin: 17px;
+    float: left;
+}
+
+.join-us-caption p {
+    font-size: 1em;
+    margin: auto;
+    padding: 10px 20px;
+}
+
+.join-us-caption button {
+    margin: 10px;
+    float: right;
+}
+
+.join-us-caption button a {
+    text-decoration: none;
+    color: rgb(203, 152, 0);
+}
+
+.join-us-item span {
+    font-size: 1em;
+}
+
+.join-us-item a {
+    width: 50%;
+    padding: 5px;
+}
+
+.join-us-item img {
+    max-height: 300px;
+    padding: 0;
+}
+
+.join-us-img {
+    padding: 0 !important;
+}
+
+/*---------------------------------------------------------------------------- Upcoming Events - MAIN*/
+/*Intro Image and Title */
+
+.events-intro-section {
+    background-image: url(https://images.pexels.com/photos/906002/pexels-photo-906002.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-color: #58304d;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50%;
+    background-size: cover;
+    margin: 0;
+}
+
+.events-intro-section h2 {
+    background-color: #58304d;
+    color: rgb(229, 229, 229);
+    max-width: 600px;
+    padding: 20px;
+    opacity: 80%;
+    text-align: center;
+    margin: auto;
+    font-size: 3em;
+}
+
+/*---upcoming events timeline ---*/
+
+.events-section-title h3 {
+    font-size: 3em;
+    text-decoration: none;
+    color: rgb(203, 152, 0);
+    text-align: center;
+    padding: 10px 0 20px 0;
+}
+
+.col-6 {
+    padding: 0 !important;
+}
+
+.upcoming-events-timeline-section {
+    background-color: rgb(34, 34, 34);
+    padding: 10px;
+    display: flex;
+}
+
+.upcoming-events-timeline-section h4 {
+    margin: 0;
+    color: rgb(229, 229, 229)
+}
+
+.upcoming-events-timeline-section strong {
+    margin: 0;
+    color: #e3b4d9;
+}
+
+.upcoming-events-timeline-section p {
+    margin: 0;
+    color: #8f5680;
+}
+
+
+
+.upcoming-events-timeline-section p {
+    margin: 0;
+    color: #e3b4d9;
+}
+
+
+
+.plan-item-left {
+    float: right;
+    padding: 0 10px 120px 50px;
+    position: relative;
+    color: white;
+    border-right: 1px solid;
+    text-align: right;
+    width: 100%;
+}
+
+.plan-item-right {
+    padding: 120px 50px 0 10px;
+    position: relative;
+    color: white;
+    border-left: 1px solid;
+    text-align: left;
+    width: 100%;
+}
+
+
+.row {
+    margin: 0 !important;
+}
+
 /*---------------------------------------------------------------------------- RETURN TO TOP*/
 
 .return-to-top a {
     position: fixed;
-    height: 50px;
-    width: 60px;
     bottom: 40px;
     right: 50px;
     border-radius: 20%;
     text-align: center;
     padding-top: 5px;
-    font-size: 3em;
+    font-size: 2em;
     color: rgb(229, 229, 229);
     text-decoration: none;
     animation-name: arrow-appear;
@@ -302,9 +568,13 @@ Hero image styling is adapted from Code Institutes 'Love Running' project */
     #rupera-vineyard-logo-grapes-above {
         display: none;
     }
+
+    #hidden-button {
+        display: none;
+    }
 }
 
-@media only screen and (max-width: 1570px) {
+@media only screen and (max-width: 1450px) {
     /*--header styling, nav below logo --*/
 
     .logo-container {
@@ -370,6 +640,20 @@ Hero image styling is adapted from Code Institutes 'Love Running' project */
         display: block;
         margin-bottom: 20px;
     }
+
+    /*About the Vineyard*/
+    .vineyard-intro h2 {
+        background-color: #58304d;
+        color: rgb(229, 229, 229);
+        max-width: 500px;
+        padding: 20px;
+        opacity: 80%;
+        text-align: center;
+        margin: auto;
+        font-size: 2.5em;
+
+    }
+
 }
 
 @media only screen and (max-width: 1000px) {
@@ -414,14 +698,6 @@ Hero image styling is adapted from Code Institutes 'Love Running' project */
         position: relative;
     }
 
-    #hero-outer img {
-        position: relative;
-        height: 400px;
-        width: auto;
-        object-fit: cover;
-        object-position: 50% 50%;
-    }
-
     #cover-text {
         position: absolute;
         width: 100%;
@@ -456,16 +732,13 @@ Hero image styling is adapted from Code Institutes 'Love Running' project */
 
     /*-- Things to enjoy --*/
 
-    #things-to-enjoy {
-        padding: 20px 5px;
-    }
 
     .carousel img {
         width: 100%;
 
     }
 
-    /*-- upcoming events --*/
+    /*-- weekly events --*/
 
     #upcoming-events-summary {
         padding: 20px 0;
@@ -488,4 +761,123 @@ Hero image styling is adapted from Code Institutes 'Love Running' project */
         height: auto;
         padding: 5px;
     }
+
+    /*-- About the Vineyard --*/
+
+    .left-about,
+    .right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    .vineyard-intro h2 {
+        background-color: #58304d;
+        color: rgb(229, 229, 229);
+        max-width: 400px;
+        padding: 20px;
+        opacity: 80%;
+        text-align: center;
+        margin: auto;
+        font-size: 2em;
+
+    }
+
+    /*join us in the vines*/
+
+    .join-us-item {
+        background-color: #58304d !important;
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+
+    .join-us-item img {
+        display: inline-block;
+        max-width: 95%;
+        align-items: center;
+    }
+
+    .join-us-section {
+        padding: 20px;
+        ;
+    }
+
+    .title-vineyard {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .join-us-item p {
+        display: block;
+    }
+
+    .title-vineyard button {
+        display: none;
+    }
+
+    #hidden-button {
+        margin: 10px 0;
+    }
+
+    #hidden-button a {
+        text-decoration: none;
+        color: rgb(203, 152, 0);
+    }
+
+    /*Upcoming Events*/
+    .events-intro-section h2 {
+        font-size: 1.5em !important;
+    }
+
+    .events-intro-section {
+        background-size: 100%;
+        background-attachment: scroll;
+        background-position: 50% 20%;
+        height: 200px
+    }
+
+    .upcoming-events-timeline-section {
+        padding: 5px;
+    }
+
+    .plan-item-left {
+        float: right;
+        padding: 0 10px 150px 0;
+        position: relative;
+        color: white;
+        border-right: 1px solid;
+        text-align: right;
+        width: 100%;
+    }
+
+    .plan-item-right {
+        padding: 170px 0 0 10px;
+        position: relative;
+        color: white;
+        border-left: 1px solid;
+        text-align: left;
+        width: 100%;
+    }
+
+    /*-- return to top button --*/
+
+    .return-to-top a {
+        bottom: 30px;
+        right: 5px;
+        font-size: 1.5em;
+    }
+
+    .return-to-top a:hover {
+        bottom: 30px;
+    }
+
+    #lg-hidden-button {
+        display: none;
+    }
 }
+
+
+@media only screen and (max-width: 550px) {}
