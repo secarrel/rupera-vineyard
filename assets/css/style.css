@@ -222,7 +222,7 @@ Hero image styling is adapted from Code Institutes 'Love Running' project */
     opacity: 80%;
 }
 
-/*-------------------------------------------------------Upcoming Events Section */
+/*-------------------------------------------------------Weekly Events Section */
 #upcoming-events-summary {
     background-color: #58304d;
     text-align: center;
@@ -448,6 +448,82 @@ Hero image styling is adapted from Code Institutes 'Love Running' project */
 .join-us-img {
     padding: 0 !important;
 }
+
+/*---------------------------------------------------------------------------- Cafe - MAIN*/
+#cafe-hero {
+    width: 100%
+}
+
+#about-the-cafe h2 {
+    letter-spacing: 3px;
+    max-width: 600px;
+    padding: 20px;
+    position: absolute;
+    background-color: #58304d9b;
+    color: rgb(229, 229, 229);
+    top: 300px;
+    left: 20px;
+    font-size: 3.2em;
+    font-weight: 600;
+}
+
+/*cafe details*/
+
+#cafe-details {
+    background-color: #58304d;
+    text-align: center;
+}
+
+#cafe-details h3 {
+    font-size: 3em;
+    text-decoration: none;
+    color: rgb(203, 152, 0);
+    padding: 20px;
+}
+
+#cafe-details h4 {
+    color: #e3b4d9;
+    text-align: center;
+    padding: 5px;
+}
+
+#cafe-details p {
+    color: rgb(229, 229, 229);
+    width: 80%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+#cafe-details a {
+    color: rgb(203, 152, 0)
+}
+
+/* cafe gallery */
+
+#photo-section {
+    background-color: rgb(34, 34, 34);
+}
+
+#photo-section h3 {
+    font-size: 3em;
+    text-decoration: none;
+    color: rgb(203, 152, 0);
+    text-align: center;
+    padding: 10px 0;
+    margin: 0;
+}
+
+#photo {
+    column-count: 3;
+    column-gap: 0;
+
+}
+
+#photo img {
+    width: 100%;
+    padding: 2px;
+}
+
 
 /*---------------------------------------------------------------------------- Upcoming Events - MAIN*/
 /*Intro Image and Title */
@@ -960,6 +1036,23 @@ Hero image styling is adapted from Code Institutes 'Love Running' project */
     #hidden-button a {
         text-decoration: none;
         color: rgb(203, 152, 0);
+    }
+
+    /*cafe intro */
+
+    #about-the-cafe h2 {
+        font-size: 2em;
+    }
+
+    /* cafe gallery */
+
+    #photo {
+        column-count: 2;
+    }
+
+    #photo-section h3 {
+        font-size: 2em;
+
     }
 
     /*Upcoming Events*/
