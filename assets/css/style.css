@@ -195,6 +195,7 @@ Hero image styling is adapted from Code Institutes 'Love Running' project */
 #things-to-enjoy h3 {
     font-size: 3em;
     text-decoration: none;
+    color: rgb(203, 152, 0);
 
 }
 
@@ -236,7 +237,8 @@ Hero image styling is adapted from Code Institutes 'Love Running' project */
 }
 
 #upcoming-events-summary h3 {
-    font-size: 3em
+    font-size: 3em;
+    color: rgb(203, 152, 0);
 }
 
 #upcoming-events-summary h5 {
@@ -520,7 +522,7 @@ Hero image styling is adapted from Code Institutes 'Love Running' project */
     float: right;
     padding: 0 10px 120px 50px;
     position: relative;
-    color: white;
+    color: rgb(229, 229, 229);
     border-right: 1px solid;
     text-align: right;
     width: 100%;
@@ -529,7 +531,7 @@ Hero image styling is adapted from Code Institutes 'Love Running' project */
 .plan-item-right {
     padding: 120px 50px 0 10px;
     position: relative;
-    color: white;
+    color: rgb(229, 229, 229);
     border-left: 1px solid;
     text-align: left;
     width: 100%;
@@ -538,6 +540,139 @@ Hero image styling is adapted from Code Institutes 'Love Running' project */
 
 .row {
     margin: 0 !important;
+}
+
+/*---------------------------------------------------------------------------- Contact Us - MAIN*/
+.get-in-touch {
+    background-image: url(https://images.unsplash.com/photo-1655679426348-eb31059e5869?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
+    color: #8f5680;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.get-in-touch h2 {
+    background-color: #58304d;
+    color: rgb(229, 229, 229);
+    max-width: 400px;
+    height: 90px;
+    padding: 20px;
+    opacity: 80%;
+    text-align: center;
+    margin: auto;
+    font-size: 3em;
+}
+
+/* ---- Contact Us Form -----*/
+
+.contact-form fieldset {
+    max-width: 500px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.51);
+    padding: 30px;
+}
+
+.contact-form h3 {
+    font-size: 3em;
+    text-decoration: none;
+    color: rgb(203, 152, 0);
+    text-align: center;
+    padding: 10px 0 5px 0;
+}
+
+
+.contact-form p {
+    text-align: center;
+    font-weight: 700;
+    padding: 10px;
+    ;
+}
+
+.contact-form label {
+    width: 110px;
+    text-align: left;
+    margin: 5px;
+}
+
+.contact-form input {
+    width: 300px;
+    text-align: left;
+    margin: 5px;
+}
+
+#messagelabel {
+    width: 423px;
+    text-align: left;
+    margin: 0;
+}
+
+#message {
+    margin: 0;
+    width: 423px;
+}
+
+#send {
+    width: 200px;
+    text-align: center;
+    background-color: #58304d;
+    color: rgb(229, 229, 229);
+    font-weight: 800;
+}
+
+#send:hover {
+    background-color: rgb(203, 152, 0)
+}
+
+#clear {
+    width: 50px;
+    text-align: center;
+}
+
+/* ---- other ways to get in touch -----*/
+.our-details h3 {
+    font-size: 3em;
+    text-decoration: none;
+    color: rgb(203, 152, 0);
+    text-align: center;
+    padding: 10px 0 5px 0;
+}
+
+.our-details {
+    background-color: rgb(34, 34, 34);
+    color: rgb(229, 229, 229);
+    text-align: center;
+}
+
+.contact-us-details h3 {
+    font-size: 3em;
+    text-decoration: none;
+    color: rgb(203, 152, 0);
+    padding: 10px 0 5px 0;
+}
+
+.our-details h4 {
+    padding: 40px 0 0;
+    font-size: 2em;
+}
+
+.hours-container table {
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+}
+
+.hours-container table td {
+    padding: 0 20px;
+}
+
+.contact-item {
+    padding: 10px 90px;
+}
+
+.contact-item i {
+    font-size: xx-large;
+    padding: 10px;
+    color: #8f5680
 }
 
 /*---------------------------------------------------------------------------- RETURN TO TOP*/

@@ -16,13 +16,15 @@
 
 <body>
     <header>
-        <div class="">
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid">
-                    <div class="logo-container overflow-y-hidden overflow-x-hidden">
-                        <a id="rupera-vineyard-wide-logo" href="#"> <img
-                                src="assets/images/grapes_rupera_vineyard_wide.png" alt="Rupera Vineyard Logo"></a>
-                    </div>
+        <nav class="navbar">
+            <div class="container-fluid">
+                <div class="logo-container">
+                    <a id="rupera-vineyard-wide-logo" href="index.html"> <img
+                            src="assets/images/grapes_rupera_vineyard_wide.png" alt="Rupera Vineyard Logo"></a>
+                    <a id="rupera-vineyard-logo-grapes-above" href="index.html"> <img
+                            src="assets/images/full_logo_grapes_above.png" alt="Rupera Vineyard Logo"></a>
+                </div>
+                <div class="full-size-nav">
                     <ul class="nav">
                         <li class="nav-item">
                             <a href="index.html" id="home-nav" class="nav-menu-item">Home</a>
@@ -44,87 +46,141 @@
                         </li>
                     </ul>
                 </div>
-            </nav>
-        </div>
+                <div class="icon-nav">
+                    <div class="topnav navbar-collapse collapse" id="mytopnav" data-theme="dark" style>
+                        <ul class="nav bg-dark">
+                            <li class="nav-item active">
+                                <a href="index.html" id="home-nav" class="nav-menu-item">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="vineyard.html" id="vineyard-nav" class="nav-menu-item">Vineyard</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="cafe.html" id="cafe-nav" class="nav-menu-item">Cafe</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="upcoming_events.html" id="upcoming-events-nav" class="nav-menu-item">Upcoming
+                                    Events</a>
+                            </li>
+                            <li class="nav-button">
+                                <button type="button" href="contact_us.html"
+                                    class="btn btn-outline-warning nav-menu-item">
+                                    <a href="contact_us.html" id="contact-us-nav"> Contact Us</a>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                    <nav class="navbar navbar-dark bg-dark">
+                        <div class="container-fluid">
+                            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                                data-target="#mytopnav" aria-controls="mytopnav" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </nav>
     </header>
-    <main>
-        contact
-    </main>
+    <main class="container-fluid">
+        <section class="get-in-touch">
+            <h2>Get in touch!</h2>
+            <div class="contact-form">
+                <form method="POST" action="https://formdump.codeinstitute.net/">
+                    <fieldset>
+                        <h3>Leave us a message</h3>
+                        <p>
+                            If you would like to make a booking for the cafe,
+                            vineyard or events, please fill in the form
+                            below. We will
+                            be back in touch to confirm your booking as soon
+                            as we can.
+                        </p>
+                        <label for="fname">First Name:</label>
+                        <input type="text" name="fname" required>
+                        <label for="lname">Last Name:</label>
+                        <input type="text" name="lname" required>
+                        <label for="email">Email Address:</label>
+                        <input type="email" name="email" required>
+                        <label for="phone">Phone Number:</label>
+                        <input type="text" name="phone" required>
+                        <label for="subject">Message Subject:</label>
+                        <input type="text" name="subject" required>
+                        <label id="messagelabel" for="message">Message:</label>
+                        <textarea id="message" rows="10" name="message"
+                            placeholder="Please include as much detail about your desired booking as possible."></textarea>
+                        <input id="send" type="submit" value="Send!">
+                        <input id="clear" type="reset" value="Clear">
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+        <section class="our-details">
+            <h3>Other ways to get in touch...</h3>
+            <div class="hours-container">
+                <h4>Opening Hours</h4>
+                <table>
+                    <tr>
+                        <td>12:00 - 18:00</td>
+                        <td>Monday - Friday</td>
+                    </tr>
+                    <tr>
+                        <td>08:00 - 18:00</td>
+                        <td>Weekends & bank holidays</td>
+                    </tr>
+                </table>
+            </div>
+            <h4>Contact Us</h4>
+            <div class="contact-item" id="location">
+                <i class="fa fa-map-pin" aria-hidden="true"></i>
+                <p> Rupera Vineyard,
+                    <br>
+                    Monmouth,
+                    <br>
+                    South Wales,
+                    <br>
+                    NP9 7RV
+                </p>
+            </div>
+            <div class="contact-item" id="phone-number">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <p> 07635 736 837</p>
+            </div>
+            <div class="contact-item" id="email-address">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <p> enquiries@ruperavineyard.com</p>
+
+            </div>
+            </div>
+        </section>
+        <section class="contact-us-details">
+
+        </section>
     </main>
     <footer class="container-fluid text-center">
-        <div class="row">
-            <div class="col order-last">
-                <ul class="list-inline social-media">
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                            <span class="sr-only">Facebook</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                            <span class="sr-only">Twitter</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
-                            <span class="sr-only">Instagram</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col">
-                <ul class="list-inline footer-nav">
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            Home
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <p>|</p>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            Vineyard
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <p>|</p>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            Cafe
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <p>|</p>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            Upcoming Events
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <p>|</p>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            Contact Us
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col order-first">
-                <a id="rupera-vineyard-wide-logo" href="#"> <img src="assets/images/grapes_rv_zoom.png"
-                        alt="Rupera Vineyard Logo">
-                </a>
-            </div>
+        <div class="social-media">
+            <ul class="list-inline social-media">
+                <li class="list-inline-item">
+                    <a target="_blank" href="#">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                        <span class="sr-only">Facebook</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="#">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <span class="sr-only">Twitter</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="#">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                        <span class="sr-only">Instagram</span>
+                    </a>
+                </li>
+            </ul>
         </div>
-        </div>
-        </span>
-
     </footer>
 </body>
 
