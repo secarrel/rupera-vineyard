@@ -1090,6 +1090,20 @@ Hero image styling is adapted from Code Institutes 'Love Running' project */
         width: 100%;
     }
 
+
+    /* Contact us page */
+
+    #messagelabel {
+        width: 95%;
+        text-align: left;
+        margin: 0;
+    }
+
+    #message {
+        margin: 4px;
+        width: 100%;
+    }
+
     /*-- return to top button --*/
 
     .return-to-top a {
@@ -1108,4 +1122,12 @@ Hero image styling is adapted from Code Institutes 'Love Running' project */
 }
 
 
-@media only screen and (max-width: 550px) {}
+@media only screen and (max-width: 495px) {
+
+    #messagelabel {
+        width: 95%;
+        text-align: center;
+        margin: 0;
+    }
+
+}
