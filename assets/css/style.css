@@ -28,13 +28,11 @@ header {
 
 .navbar {
     background: rgb(34, 34, 34);
-    padding: 0;
+    padding: 0 !important;
 }
 
-.topnav {
-    margin: 0px;
-    padding-top: 10px;
-    letter-spacing: 3px;
+.nav {
+    margin-left: auto;
 }
 
 /*---------------------------------------------navbar logo */
@@ -46,14 +44,19 @@ header {
 
 .logo-container {
     margin: 0;
-    height: 100px;
+    height: 70px;
+}
+
+.logo-container img {
+    margin: 0;
+    max-height: 70px;
 }
 
 /*---------------------------------------------navbar menu items */
 
-/*hiding nav*/
-.icon-nav {
-    display: none;
+.navbar-toggler {
+    margin: 10px;
+    border-color: rgb(34, 34, 34) !important;
 }
 
 /*nav menu display*/
@@ -64,7 +67,7 @@ header {
     font-size: 1.5em !important;
     font-family: "Cormorant Garamond" !important;
     color: rgb(229, 229, 229);
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 .nav-item {
@@ -73,7 +76,6 @@ header {
 
 .nav-button {
     margin-right: 20px;
-    ;
 }
 
 #contact-us-nav {
@@ -85,6 +87,13 @@ header {
 .nav-item a:hover {
     color: rgb(203, 152, 0);
     transition-duration: .3s;
+}
+
+.contact-us-hover a:hover {
+    background-color: rgba(203, 152, 0, 0.251);
+    border-radius: 30%;
+
+
 }
 
 /*---------------------------------------------------------------------------- FOOTER */
@@ -751,6 +760,37 @@ Hero image styling is adapted from Code Institutes 'Love Running' project */
     color: #8f5680
 }
 
+/*---------------------------------------------------------------------------- Thanks - MAIN*/
+#thanks {
+    background-image: url(https://images.unsplash.com/photo-1655679426348-eb31059e5869?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
+    color: #8f5680;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 800px;
+}
+
+.thanks-container {
+    padding: 150px 0;
+}
+
+#thanks-message {
+    background-color: rgba(229, 229, 229, 0.76);
+    max-width: 500px;
+    text-align: center;
+    margin: auto;
+}
+
+#thanks-message h2 {
+    font-size: 3em;
+
+}
+
+#thanks-message p {
+    font-size: 2em;
+}
+
+
 /*---------------------------------------------------------------------------- RETURN TO TOP*/
 
 .return-to-top a {
@@ -775,26 +815,11 @@ Hero image styling is adapted from Code Institutes 'Love Running' project */
 
 
 /*---------------------------------------------------------------------------- BREAKPOINTS */
-@media only screen and (min-width: 1000px) {
-    #rupera-vineyard-logo-grapes-above {
-        display: none;
-    }
-
-    #hidden-button {
-        display: none;
-    }
-}
-
 @media only screen and (max-width: 1450px) {
-    /*--header styling, nav below logo --*/
+    /*--header styling--*/
 
     .logo-container {
         display: block;
-        margin: center;
-    }
-
-    .full-size-nav {
-        padding-top: 10px;
     }
 
     .container-fluid {
@@ -867,18 +892,27 @@ Hero image styling is adapted from Code Institutes 'Love Running' project */
 
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1265px) {
 
-    /*--logo centered and swapped with narrower logo--*/
-    #rupera-vineyard-wide-logo {
-        display: none;
+    .navbar-expand-lg {
+        flex-flow: row;
+        flex-wrap: wrap !important;
     }
 
+
+    .logo-container img {
+        position: 0 50%;
+    }
+
+    .navbar-collapse {
+        flex-grow: 0.5 !important;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
     .logo-container {
         display: block;
         position: relative;
-        height: 200px;
-        width: 100%;
     }
 
     #rupera-vineyard-logo-grapes-above img {
@@ -1122,12 +1156,29 @@ Hero image styling is adapted from Code Institutes 'Love Running' project */
 }
 
 
-@media only screen and (max-width: 495px) {
+@media only screen and (max-width: 510px) {
 
     #messagelabel {
         width: 95%;
         text-align: center;
         margin: 0;
+    }
+
+    #things-to-enjoy-carousel {
+        width: 100% !important;
+    }
+
+    .logo-container {
+        width: 100%;
+        height: auto;
+    }
+
+    .logo-container img {
+        width: 100%;
+    }
+
+    .navbar-toggler {
+        margin: 5px auto;
     }
 
 }
