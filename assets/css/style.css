@@ -359,7 +359,7 @@ footer {
 
 .the-facts {
     margin: 0;
-    padding: 0;
+    padding: 10px 10px;
     background-color: #58304d;
 }
 
@@ -369,6 +369,7 @@ footer {
     font-family: "Cormorant Garamond";
     text-align: center;
     padding: 20px;
+    margin: auto;
 }
 
 .about-the-vineyard h3 {
@@ -379,6 +380,20 @@ footer {
 }
 
 /*vineyard facts*/
+
+.wine,
+.grapes {
+    border-top: solid 10px #58304d;
+    ;
+}
+
+.wine-content,
+.grape-content,
+.vineyard-content {
+    width: 60%;
+    margin: auto;
+}
+
 .vineyard-facts {
     display: inline-block;
     background-color: rgb(34, 34, 34)
@@ -389,38 +404,18 @@ footer {
     max-width: 49%;
 }
 
-.left-about {
+.about {
     float: left;
     color: rgb(229, 229, 229);
     text-align: center;
-    width: 50%;
     padding: 5px;
 }
 
-.left-about p {
+.about p {
     padding: 20px;
 }
 
-.left-about h4 {
-    padding-top: 10px;
-    font-size: 1.8em;
-    color: #e3b4d9;
-    font-weight: 800;
-}
-
-.right-about {
-    float: right;
-    width: 50%;
-    color: rgb(229, 229, 229);
-    text-align: center;
-    padding: 5px;
-}
-
-.right-about p {
-    padding: 20px;
-}
-
-.right-about h4 {
+.about h4 {
     padding-top: 10px;
     font-size: 1.8em;
     color: #e3b4d9;
@@ -429,10 +424,19 @@ footer {
 
 /*----Join Us in The Vines----*/
 
+
 .join-us-section {
     padding: 40px;
     text-align: center;
     background-color: #58304d;
+    margin: 0;
+    padding: 10px;
+    background-color: #58304d;
+}
+
+.join-us-content {
+    width: 80%;
+    margin: auto;
 }
 
 .join-us-in-the-vines {
@@ -496,7 +500,6 @@ footer {
 }
 
 .join-us-item img {
-    max-height: 300px;
     padding: 0;
 }
 
@@ -1043,13 +1046,6 @@ footer {
 
     /*-- About the Vineyard --*/
 
-    .left-about,
-    .right-about {
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
     .vineyard-intro h2 {
         background-color: #58304d;
         color: rgb(229, 229, 229);
@@ -1059,6 +1055,18 @@ footer {
         text-align: center;
         margin: auto;
         font-size: 2em;
+    }
+
+    .vineyard-content {
+        width: 95%;
+    }
+
+    .grape-content {
+        width: 95%;
+    }
+
+    .wine-content {
+        width: 95%;
     }
 
     /*join us in the vines*/
@@ -1074,10 +1082,6 @@ footer {
         display: inline-block;
         max-width: 95%;
         align-items: center;
-    }
-
-    .join-us-section {
-        padding: 20px;
     }
 
     .title-vineyard {
@@ -1214,6 +1218,14 @@ footer {
 
     #things-to-enjoy-carousel {
         width: 100% !important;
+    }
+
+    /*Vineyard information*/
+    .vineyard-content,
+    .join-us-content,
+    .grape-content,
+    .wine-content {
+        width: 100%;
     }
 
     /*join us in the vines */
