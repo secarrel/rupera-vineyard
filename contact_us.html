@@ -74,22 +74,25 @@
                             be back in touch to confirm your booking as soon
                             as we can.
                         </p>
-                        <label for="fname">First Name:</label>
+                        <p> * indicates required fields.</p>
+                        <label for="fname">First Name:*</label>
                         <input type="text" name="fname" required>
-                        <label for="lname">Last Name:</label>
+                        <label for="lname">Last Name:*</label>
                         <input type="text" name="lname" required>
-                        <label for="email">Email Address:</label>
+                        <label for="email">Email Address:*</label>
                         <input type="email" name="email" required>
                         <label for="phone">Phone Number:</label>
-                        <input type="text" name="phone" required>
-                        <label for="subject">Message Subject:</label>
+                        <input type="text" name="phone">
+                        <label for="subject">Subject:*</label>
                         <input type="text" name="subject" required>
-                        <label id="messagelabel" for="message">Message:</label>
+                        <label id="messagelabel" for="message">Message:*</label>
                         <textarea id="message" rows="10" name="message"
                             placeholder="Please include as much detail about your desired booking as possible."></textarea>
                         <input id="send" type="submit" value="Send!">
                         <input id="clear" type="reset" value="Clear">
+
                     </fieldset>
+
                 </form>
             </div>
         </section>

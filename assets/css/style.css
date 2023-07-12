@@ -702,11 +702,16 @@ footer {
 
 /* ---- Contact Us Form -----*/
 
+.contact-form {
+    padding: 20px;
+}
+
 .contact-form fieldset {
     max-width: 500px;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.51);
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 30px;
+    margin: 20px auto;
 }
 
 .contact-form h3 {
@@ -1156,6 +1161,14 @@ footer {
 
 
     /* Contact us page */
+
+    .contact-form {
+        padding: 20px 0;
+    }
+
+    .contact-form fieldset {
+        padding: 10px 16px 10px 10px;
+    }
 
     #messagelabel {
         width: 95%;
