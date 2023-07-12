@@ -16,6 +16,27 @@ em {
     color: rgb(229, 229, 229);
 }
 
+.contact-us-button {
+    color: rgb(203, 152, 0);
+    border-width: 1px;
+    border-color: rgb(203, 152, 0);
+    border-style: solid;
+    text-decoration: none;
+    font-size: 1.4em;
+    padding: 3px;
+    margin: auto;
+}
+
+.contact-us-button a {
+    margin-top: 17px;
+}
+
+.contact-us-button:hover {
+    color: rgb(34, 34, 34);
+    background-color: rgb(203, 152, 0);
+    text-decoration: none;
+}
+
 /*---------------------------------------------------------------------------- HEADER */
 /*----------------------------------------------navbar */
 
@@ -77,12 +98,18 @@ header {
 }
 
 .nav-item {
-    padding-top: 5px;
+    padding: 5px 0;
 }
 
 #contact-us-nav {
     color: rgb(203, 152, 0);
     text-decoration: none;
+    border-width: 1px;
+    border-color: rgb(203, 152, 0);
+    border-style: solid;
+    margin-right: 10px;
+    padding: 3px !important;
+    margin: 28px;
 }
 
 /*interactive nav*/
@@ -92,8 +119,9 @@ header {
 }
 
 .contact-us-hover a:hover {
-    background-color: rgba(203, 152, 0, 0.251);
-    border-radius: 30%;
+    background-color: rgb(203, 152, 0);
+    color: rgb(34, 34, 34) !important;
+
 }
 
 
@@ -207,7 +235,7 @@ footer {
 }
 
 #things-to-enjoy-p {
-    padding: 50px;
+    padding: 50px 250px;
     color: #e3b4d9;
     font-size: 1.1em;
 }
@@ -216,10 +244,6 @@ footer {
     padding: 20px 10px 0;
 }
 
-#things-to-enjoy-p a {
-    text-decoration: none !important;
-    color: rgb(203, 152, 0);
-}
 
 .carousel {
     width: 60%;
@@ -452,7 +476,7 @@ footer {
     padding: 10px 20px;
 }
 
-.join-us-caption button {
+#contact-us-join-us {
     margin: 10px;
     float: right;
 }
@@ -467,8 +491,8 @@ footer {
 }
 
 .join-us-item a {
-    width: 50%;
     padding: 5px;
+    margin: auto;
 }
 
 .join-us-item img {
@@ -1035,7 +1059,6 @@ footer {
         text-align: center;
         margin: auto;
         font-size: 2em;
-
     }
 
     /*join us in the vines*/
@@ -1055,7 +1078,6 @@ footer {
 
     .join-us-section {
         padding: 20px;
-        ;
     }
 
     .title-vineyard {
@@ -1071,15 +1093,6 @@ footer {
 
     .title-vineyard button {
         display: none;
-    }
-
-    #hidden-button {
-        margin: 10px 0;
-    }
-
-    #hidden-button a {
-        text-decoration: none;
-        color: rgb(203, 152, 0);
     }
 
     /*cafe intro */
@@ -1203,5 +1216,9 @@ footer {
         width: 100% !important;
     }
 
+    /*join us in the vines */
 
+    #contact-us-join-us {
+        display: none;
+    }
 }
