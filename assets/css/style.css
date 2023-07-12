@@ -509,20 +509,9 @@ footer {
 
 /*---------------------------------------------------------------------------- Cafe - MAIN*/
 #cafe-hero {
-    width: 100%
-}
-
-#about-the-cafe h2 {
-    letter-spacing: 3px;
-    max-width: 600px;
-    padding: 20px;
-    position: absolute;
-    background-color: #58304d9b;
-    color: rgb(229, 229, 229);
-    top: 300px;
-    left: 20px;
-    font-size: 3.2em;
-    font-weight: 600;
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
 }
 
 /*cafe details*/
@@ -530,26 +519,30 @@ footer {
 #cafe-details {
     background-color: #58304d;
     text-align: center;
+    padding: 5px;
+}
+
+.cafe-item {
+    background-color: rgba(34, 34, 34, 0.534);
+    margin: 5px;
+    padding: 15px 5px;
 }
 
 #cafe-details h3 {
     font-size: 3em;
     text-decoration: none;
     color: rgb(203, 152, 0);
-    padding: 20px;
 }
 
 #cafe-details h4 {
     color: #e3b4d9;
     text-align: center;
-    padding: 5px;
 }
 
 #cafe-details p {
     color: rgb(229, 229, 229);
-    width: 80%;
     margin: auto;
-    padding-bottom: 50px;
+    width: 60%;
 }
 
 #cafe-details a {
@@ -1099,10 +1092,10 @@ footer {
         display: none;
     }
 
-    /*cafe intro */
+    /*cafe info */
 
-    #about-the-cafe h2 {
-        font-size: 2em;
+    #cafe-details p {
+        width: 80%;
     }
 
     /* cafe gallery */
@@ -1224,7 +1217,8 @@ footer {
     .vineyard-content,
     .join-us-content,
     .grape-content,
-    .wine-content {
+    .wine-content,
+    #cafe-details p {
         width: 100%;
     }
 
