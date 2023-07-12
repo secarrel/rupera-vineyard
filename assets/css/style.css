@@ -584,6 +584,9 @@ footer {
     padding: 2px;
 }
 
+.extra-image {
+    display: none;
+}
 
 /*---------------------------------------------------------------------------- Upcoming Events - MAIN*/
 /*Intro Image and Title */
@@ -872,6 +875,7 @@ footer {
 
 
 /*---------------------------------------------------------------------------- BREAKPOINTS */
+
 @media only screen and (max-width: 1450px) {
     /*--header styling--*/
 
@@ -1122,6 +1126,10 @@ footer {
     #photo-section h3 {
         font-size: 2em;
 
+    }
+
+    .extra-image {
+        display: block;
     }
 
     /*Upcoming Events*/
