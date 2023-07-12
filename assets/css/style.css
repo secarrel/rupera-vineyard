@@ -279,7 +279,7 @@ footer {
 }
 
 /*-------------------------------------------------------Weekly Events Section */
-#upcoming-events-summary {
+#weekly-events-summary {
     background-color: #58304d;
     text-align: center;
     vertical-align: middle;
@@ -292,18 +292,18 @@ footer {
     margin: 20px 0;
 }
 
-#upcoming-events-summary h3 {
+#weekly-events-summary h3 {
     font-size: 3em;
     color: rgb(203, 152, 0);
 }
 
-#upcoming-events-summary h5 {
+#weekly-events-summary h5 {
     font-size: 2em;
     letter-spacing: 2px;
     padding-top: 10px;
 }
 
-#upcoming-events-summary p {
+#weekly-events-summary p {
     font-size: 1.1em !important;
     width: 500px;
     margin: auto;
@@ -528,6 +528,15 @@ footer {
     padding: 15px 5px;
 }
 
+.cafe-item a {
+    text-decoration: none;
+    color: #e3b4d9 !important;
+}
+
+.cafe-item a:hover {
+    color: rgb(203, 152, 0) !important;
+}
+
 #cafe-details h3 {
     font-size: 3em;
     text-decoration: none;
@@ -647,7 +656,8 @@ footer {
 
 .plan-item-left {
     float: right;
-    padding: 0 10px 120px 50px;
+    padding: 0 10px 120px 250px;
+
     position: relative;
     color: rgb(229, 229, 229);
     border-right: 1px solid;
@@ -656,7 +666,7 @@ footer {
 }
 
 .plan-item-right {
-    padding: 120px 50px 0 10px;
+    padding: 120px 250px 0 10px;
     position: relative;
     color: rgb(229, 229, 229);
     border-left: 1px solid;
@@ -1015,12 +1025,12 @@ footer {
 
     /*-- weekly events --*/
 
-    #upcoming-events-summary {
+    #weekly-events-summary {
         padding: 20px 0;
         margin: auto;
     }
 
-    #upcoming-events-summary p {
+    #weekly-events-summary p {
         font-size: 1.2em;
         width: 90%;
         margin: auto;
