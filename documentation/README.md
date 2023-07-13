@@ -109,7 +109,6 @@ Section 3 on home page not responsive
 - walk_the_vines Photo by Jacob  Riesel : https://www.pexels.com/photo/woman-at-a-vineyard-14904749/
 - meriachi_band Photo by Mikhail Nilov: https://www.pexels.com/photo/men-in-black-and-white-suit-playing-a-guitar-8919080/
 - sing_song Photo by Ronê Ferreira: https://www.pexels.com/photo/people-gathering-in-room-2735037/
-- live_music Photo by Wendy Wei: https://www.pexels.com/photo/photo-of-band-performing-on-stage-2724670/
 - pizza_party1 Photo by Kindel Media: https://www.pexels.com/photo/woman-holding-pizza-slice-7148991/
 - pizza_party2 Photo by Kindel Media: https://www.pexels.com/photo/woman-eating-pizza-7148990/
 - pizza_party3 Photo by Kindel Media: https://www.pexels.com/photo/three-women-eating-pizza-7148992/
@@ -117,8 +116,9 @@ Section 3 on home page not responsive
 - cheese_wine2 Photo by Cup of  Couple: https://www.pexels.com/photo/a-wine-bottle-near-the-wooden-plate-with-cheese-and-grapes-8473177/
 - taco_tuesdays1 Photo by ROMAN ODINTSOV: https://www.pexels.com/photo/tacos-on-a-cutting-board-juice-in-glass-and-spices-4958641/
 - taco_tuesdays2 Photo by ROMAN ODINTSOV: https://www.pexels.com/photo/mexican-tacos-with-salsa-4958731/
-- mariachi_band2 Photo by Mikhail Nilov: https://www.pexels.com/photo/man-and-woman-playing-musical-instruments-8919727/
 - taco_tuesday3 Photo by Anna Tarazevich: https://www.pexels.com/photo/smiling-woman-playing-the-ukulele-8479706/
 - mariachi_band3 Photo by Mikhail Nilov: https://www.pexels.com/photo/a-mariachi-band-playing-at-a-bar-8919751/
 - wines Photo by Polina Kovaleva: https://www.pexels.com/photo/close-up-shot-of-glasses-of-alcoholic-beverages-7283410/
-- wine barrels Photo by Pixabay: https://www.pexels.com/photo/alcohol-barrel-basement-beer-434311/
+- wine_barrels Photo by Pixabay: https://www.pexels.com/photo/alcohol-barrel-basement-beer-434311/
+- healthy_bowl Photo by Eiliv Aceron href=https://unsplash.com/@shootdelicious?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+  
