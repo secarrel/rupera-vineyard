@@ -255,8 +255,11 @@ footer {
 .carousel-control-next,
 .carousel-control-prev {
     opacity: 0.7 !important;
+    height: 100%;
+    align-items: flex-end !important;
+    z-index: 900 !important;
+    padding: 22px !important;
 }
-
 
 .carousel-caption {
     background-color: #58304d9b;
