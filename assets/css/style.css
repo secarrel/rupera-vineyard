@@ -36,9 +36,14 @@ em {
     text-decoration: none;
 }
 
+dl,
+ol,
+ul {
+    margin-bottom: 0 !important;
+}
+
 /*---------------------------------------------------------------------------- HEADER */
 /*----------------------------------------------navbar */
-
 header {
     margin: 0;
     margin-top: 0;
@@ -49,7 +54,6 @@ header {
 .navbar {
     background: rgb(34, 34, 34);
     padding: 0 !important;
-
 }
 
 .nav {
@@ -57,11 +61,9 @@ header {
 }
 
 /*---------------------------------------------navbar logo */
-
 .container-fluid {
     padding: 0 !important;
 }
-
 
 .logo-container {
     margin: 0;
@@ -74,7 +76,6 @@ header {
 }
 
 /*---------------------------------------------navbar menu items */
-
 .navbar-toggler {
     margin: 10px;
     border-color: rgb(34, 34, 34) !important;
@@ -83,7 +84,6 @@ header {
 .navbar-toggler:focus {
     border-width: 0 !important;
 }
-
 
 /*nav menu display*/
 .nav-menu-item {
@@ -120,22 +120,16 @@ header {
 .contact-us-hover a:hover {
     background-color: rgb(203, 152, 0);
     color: rgb(34, 34, 34) !important;
-
 }
 
-
-
 /*---------------------------------------------------------------------------- FOOTER */
-
 footer {
     background: rgb(34, 34, 34);
     color: rgb(229, 229, 229);
     font-size: 1.5em;
-    height: 100px;
 }
 
 /*social media */
-
 .social-media i {
     margin: 35px;
     font-size: xx-large;
@@ -194,7 +188,6 @@ footer {
     font-style: italic;
 }
 
-
 #cover-text {
     font-family: "Cormorant Garamond";
     letter-spacing: 3px;
@@ -206,11 +199,9 @@ footer {
     opacity: 60%;
     top: 10%;
     right: 120px;
-
 }
 
 /*-------------------------------------------------------Things to Enjoy Section */
-
 #things-to-enjoy {
     padding: 50px;
     background-color: rgb(34, 34, 34);
@@ -223,14 +214,13 @@ footer {
 #things-to-enjoy-carousel {
     width: 60%;
     margin: 30px 20%;
-    padding: 0
+    padding: 0;
 }
 
 #things-to-enjoy h3 {
     font-size: 3em;
     text-decoration: none;
     color: rgb(203, 152, 0);
-
 }
 
 #things-to-enjoy-p {
@@ -243,12 +233,10 @@ footer {
     padding: 20px 10px 0;
 }
 
-
 .carousel {
     width: 60%;
     overflow: hidden;
     padding: 50px;
-
 }
 
 .carousel-control-next,
@@ -333,7 +321,6 @@ footer {
 
 /*---------------------------------------------------------------------------- VINEYARD - MAIN*/
 /*Intro Image and Title */
-
 .vineyard-intro {
     background-image: url(https://images.unsplash.com/photo-1602574923828-853dbbc27277?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1935&q=80);
     background-color: #58304d;
@@ -354,7 +341,6 @@ footer {
     text-align: center;
     margin: auto;
     font-size: 3.5em;
-
 }
 
 /*----About the Vineyard----*/
@@ -386,7 +372,6 @@ footer {
 .wine,
 .grapes {
     border-top: solid 10px #58304d;
-    ;
 }
 
 .wine-content,
@@ -426,8 +411,6 @@ footer {
 }
 
 /*----Join Us in The Vines----*/
-
-
 .join-us-section {
     padding: 40px;
     text-align: center;
@@ -579,7 +562,6 @@ footer {
 #photo {
     column-count: 3;
     column-gap: 0;
-
 }
 
 #photo img {
@@ -593,7 +575,6 @@ footer {
 
 /*---------------------------------------------------------------------------- Upcoming Events - MAIN*/
 /*Intro Image and Title */
-
 .events-intro-section {
     background-image: url(https://images.pexels.com/photos/906002/pexels-photo-906002.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-color: #58304d;
@@ -651,19 +632,14 @@ footer {
     color: #8f5680;
 }
 
-
-
 .upcoming-events-timeline-section p {
     margin: 0;
     color: #e3b4d9;
 }
 
-
-
 .plan-item-left {
     float: right;
     padding: 0 10px 120px 250px;
-
     position: relative;
     color: rgb(229, 229, 229);
     border-right: 1px solid;
@@ -679,7 +655,6 @@ footer {
     text-align: left;
     width: 100%;
 }
-
 
 .row {
     margin: 0 !important;
@@ -733,7 +708,6 @@ footer {
     text-align: center;
     font-weight: 700;
     padding: 10px;
-    ;
 }
 
 .contact-form label {
@@ -853,9 +827,7 @@ footer {
     font-size: 2em;
 }
 
-
 /*---------------------------------------------------------------------------- RETURN TO TOP*/
-
 .return-to-top a {
     position: fixed;
     bottom: 40px;
@@ -876,12 +848,10 @@ footer {
     transition: .2s;
 }
 
-
 /*---------------------------------------------------------------------------- BREAKPOINTS */
-
 @media only screen and (max-width: 1450px) {
-    /*--header styling--*/
 
+    /*--header styling--*/
     .logo-container {
         display: block;
     }
@@ -891,7 +861,6 @@ footer {
     }
 
     /*--hero image and cover text resized --*/
-
     #cover-text {
         width: 500px;
         padding: 0 20px;
@@ -920,12 +889,10 @@ footer {
     }
 
     /*-- Things to enjoy--*/
-
     #things-to-enjoy-carousel {
         width: 90%;
         margin: auto;
         padding: 10px;
-
     }
 
     #things-to-enjoy-p {
@@ -933,7 +900,6 @@ footer {
     }
 
     /*-- Upcoming Events --*/
-
     #live-band-and-pizza,
     #taco-tuesday,
     #cheese-and-wine {
@@ -951,7 +917,6 @@ footer {
         text-align: center;
         margin: auto;
         font-size: 2.5em;
-
     }
 
 }
@@ -962,7 +927,6 @@ footer {
         flex-flow: row;
         flex-wrap: wrap !important;
     }
-
 
     .logo-container img {
         position: 0 50%;
@@ -1013,7 +977,6 @@ footer {
     }
 
     /*-- Things to enjoy --*/
-
     #things-to-enjoy {
         padding: 30px 0;
     }
@@ -1036,7 +999,6 @@ footer {
     }
 
     /*-- weekly events --*/
-
     #weekly-events-summary {
         padding: 20px 0;
         margin: auto;
@@ -1060,7 +1022,6 @@ footer {
     }
 
     /*-- About the Vineyard --*/
-
     .vineyard-intro h2 {
         background-color: #58304d;
         color: rgb(229, 229, 229);
@@ -1085,7 +1046,6 @@ footer {
     }
 
     /*join us in the vines*/
-
     .join-us-item {
         background-color: #58304d !important;
         display: block;
@@ -1115,13 +1075,11 @@ footer {
     }
 
     /*cafe info */
-
     #cafe-details p {
         width: 80%;
     }
 
     /* cafe gallery */
-
     #photo {
         column-count: 2;
     }
@@ -1170,9 +1128,7 @@ footer {
         width: 100%;
     }
 
-
     /* Contact us page */
-
     .contact-form {
         padding: 20px 0;
     }
@@ -1193,7 +1149,6 @@ footer {
     }
 
     /*-- return to top button --*/
-
     .return-to-top a {
         bottom: 30px;
         right: 5px;
@@ -1208,7 +1163,6 @@ footer {
         display: none;
     }
 }
-
 
 @media only screen and (max-width: 510px) {
 
@@ -1257,7 +1211,6 @@ footer {
     }
 
     /*join us in the vines */
-
     #contact-us-join-us {
         display: none;
     }
