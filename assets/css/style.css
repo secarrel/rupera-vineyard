@@ -835,12 +835,14 @@ footer {
     right: 50px;
     border-radius: 20%;
     text-align: center;
-    padding-top: 5px;
+    padding: 5px 10px;
     font-size: 2em;
     color: rgb(229, 229, 229);
     text-decoration: none;
     animation-name: arrow-appear;
     animation-duration: 5s;
+    z-index: 900;
+    background-color: rgba(34, 34, 34, 0.621);
 }
 
 .return-to-top a:hover {
