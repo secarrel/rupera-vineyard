@@ -1183,8 +1183,8 @@ footer {
     }
 
     #hero-outer img {
-        min-height: 300px;
-        max-height: 350px;
+        min-height: 100px;
+        max-height: 320px;
         width: auto;
     }
 
