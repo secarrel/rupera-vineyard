@@ -257,9 +257,77 @@ The site can be accessed by this [link](https://secarrel.github.io/rupera-vineya
 ---
 
 ## Testing
-+ #### Manual testing 
-+ #### compatitability on 3-4 browsers. 
-+ #### responsive viewer. for each page.
++ #### Browser Compatitability
+    - I tested this website on three browsers, Chrome, Edge and Safari and found that each displayed the website as intended and all links and images appeared and worked as expected. Please see the results of browser compatability testing [here](documentation\read_me_images\browser_compatability_table.png).
+    - See screenshots from Chrome testing below:
+        + [Home Page img1](documentation\read_me_images\chrome_home1.png)
+        + [Home Page img2](documentation\read_me_images\chrome_home2.png)
+        + [Home Page img3](documentation\read_me_images\chrome_home3.png)
+        + [Vineyard Page img1](documentation\read_me_images\chrome_vineyard1.png)
+        + [Vineyard Page img2](documentation\read_me_images\chrome_vineyard2.png)
+        + [Cafe Page img1](documentation\read_me_images\chrome_cafe1.png)
+        + [Cafe Page img2](documentation\read_me_images\chrome_cafe2.png)
+        + [Events Page img1](documentation\read_me_images\chrome_events1.png)
+        + [Events Page img2](documentation\read_me_images\chrome_events2.png)
+        + [Contact Page img1](documentation\read_me_images\chrome_contact1.png)
+        + [Contact Page img2](documentation\read_me_images\chrome_contact2.png)
+    - See screenshots from Edge testing below:
+        + [Home Page img1](documentation\read_me_images\edge_home1.png)
+        + [Home Page img2](documentation\read_me_images\edge_home2.png)
+        + [Home Page img3](documentation\read_me_images\edge_home3.png)
+        + [Vineyard Page img1](documentation\read_me_images\edge_vineyard1.png)
+        + [Vineyard Page img2](documentation\read_me_images\edge_vineyard2.png)
+        + [Cafe Page img1](documentation\read_me_images\edge_cafe1.png)
+        + [Cafe Page img2](documentation\read_me_images\edge_cafe2.png)
+        + [Events Page img1](documentation\read_me_images\edge_events1.png)
+        + [Events Page img2](documentation\read_me_images\edge_events2.png)
+        + [Contact Page img1](documentation\read_me_images\edge_contact1.png)
+        + [Contact Page img2](documentation\read_me_images\edge_contact2.png)
+    - See screenshots from Safari testing below:
+        + [Home Page img1](documentation\read_me_images\safari_home1.png)
+        + [Vineyard Page img1](documentation\read_me_images\safari_vineyard2.png)
+        + [Cafe Page img1](documentation\read_me_images\safari_cafe1.png)
+        + [Cafe Page img2](documentation\read_me_images\safari_cafe2.png)
+        + [Events Page img1](documentation\read_me_images\safari_events1.png)
+        + [Events Page img2](documentation\read_me_images\safari_events2.png)
+        + [Contact Page img1](documentation\read_me_images\safari_contact1.png)
+        + [Contact Page img2](documentation\read_me_images\safari_contact2.png)
+
++ #### Responisiveness Testing
+    - I have tested this website on 3 different mobile screen sizes, 3 different tablet screen sizes and 2 desktop screen sizes. Please view the results of this testing [here](documentation\read_me_images\responsivenes_table.png).
+    - See below screenshots from mobile testing:
+        + [Home Page img1](documentation\read_me_images\responsive_mobile_home1.png)
+        + [Home Page img2](documentation\read_me_images\responsive_mobile_home2.png)
+        + [Vineyard Page img1](documentation\read_me_images\responsive_mobile_vineyard1.png)
+        + [Vineyard Page img2](documentation\read_me_images\responsive_mobile_vineyard2.png)
+        + [Cafe Page img1](documentation\read_me_images\responsive_mobile_cafe1.png)
+        + [Cafe Page img2](documentation\read_me_images\responsive_mobile_cafe2.png)
+        + [Events Page img1](documentation\read_me_images\responsive_mobile_events1.png)
+        + [Events Page img2](documentation\read_me_images\responsive_mobile_events2.png)
+        + [Contact Page img1](documentation\read_me_images\responsive_mobile_contact1.png)
+        + [Contact Page img2](documentation\read_me_images\responsive_mobile_contact2.png)
+    - See below screenshots from tablet testing:
+        + [Home Page img1](documentation\read_me_images\responsive_tablets_home1.png)
+        + [Home Page img2](documentation\read_me_images\responsive_tablets_home2.png)
+        + [Vineyard Page img1](documentation\read_me_images\responsive_tablets_vineyard1.png)
+        + [Vineyard Page img2](documentation\read_me_images\responsive_tablets_vineyard2.png)
+        + [Cafe Page img1](documentation\read_me_images\responsive_tablets_cafe1.png)
+        + [Cafe Page img2](documentation\read_me_images\responsive_tablets_cafe2.png)
+        + [Events Page img1](documentation\read_me_images\responsive_tablets_events1.png)
+        + [Events Page img2](documentation\read_me_images\responsive_tablets_events2.png)
+        + [Contact Page img1](documentation\read_me_images\responsive_tablets_contact1.png)
+    - See below screenshots from Desktop testing:
+        + [Home Page img1](documentation\read_me_images\responsive_desktop_home1.png)
+        + [Home Page img2](documentation\read_me_images\responsive_desktop_home2.png)
+        + [Home Page img3](documentation\read_me_images\responsive_desktop_home3.png)
+        + [Vineyard Page img1](documentation\read_me_images\responsive_desktop_vineyard1.png)
+        + [Vineyard Page img2](documentation\read_me_images\responsive_desktop_vineyard2.png)
+        + [Cafe Page img1](documentation\read_me_images\responsive_desktop_cafe1.png)
+        + [Cafe Page img2](documentation\read_me_images\responsive_desktop_cafe2.png)
+        + [Events Page img1](documentation\read_me_images\responsive_desktop_events1.png)
+        + [Events Page img2](documentation\read_me_images\responsive_desktop_events2.png)
+        + [Contact Page img1](documentation\read_me_images\responsive_desktop_contact1.png)
+        + [Contact Page img2](documentation\read_me_images\responsive_desktop_contact2.png)
 + #### Lighthouse.
 + #### Routine Testing.
 + #### User story testing
@@ -285,7 +353,8 @@ The site can be accessed by this [link](https://secarrel.github.io/rupera-vineya
     - Image gallery on Cafe page:
         + The images don't align at the bottom of the page due to the different sized images in the columns I craeted in order to display the images as a gallery. I looked at different ways of presenting these images in order to improve the apprearance and UX, but had trouble improving the appearance of the gallery. I have left this bug in the website but don't believe it has a notable negative affect on UX.
         ![Cafe Gallery mis-aligned](documentation\read_me_images\cafe_gallery_bug.png)
-
+    - Text moves around under carousel on home page as images change:
+        + I used DevTools to try to identify the problem. It appears that the text has a dependancy of some kind on the carousel images but couldn't work out how to resolve this bug. It is more noticable on mobile display than desktop and only happens when certain images run through the carousel. 
 ---
 
 
@@ -362,6 +431,7 @@ In your IDE Terminal, type the following command to clone my repository:
 
 + #### Tools
     - I used [logo.com](https://logo.com/) to create the logo for the website.
+    - I used [Compressjpg](https://compressjpeg.com/) to compress the images for the website to improve performance.
 
 ---
 
