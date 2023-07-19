@@ -193,7 +193,6 @@ footer {
     font-family: "Cormorant Garamond";
     letter-spacing: 3px;
     width: 600px;
-    padding-top: auto;
     padding-left: 10px;
     position: absolute;
     background-color: #58304d;
@@ -928,10 +927,6 @@ footer {
     .navbar-expand-lg {
         flex-flow: row;
         flex-wrap: wrap !important;
-    }
-
-    .logo-container img {
-        position: 0 50%;
     }
 
     .navbar-collapse {
