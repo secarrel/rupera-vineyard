@@ -328,7 +328,20 @@ The site can be accessed by this [link](https://secarrel.github.io/rupera-vineya
         + [Events Page img2](documentation\read_me_images\responsive_desktop_events2.png)
         + [Contact Page img1](documentation\read_me_images\responsive_desktop_contact1.png)
         + [Contact Page img2](documentation\read_me_images\responsive_desktop_contact2.png)
-+ #### Lighthouse.
+
++ #### Lighthouse
+    - I tested my website with the lighthouse feature in DevTools and found that the website performs far better on desktop than on mobile devices. I considered altering the website to improve this but the main problem seems to be the hero image on each page. I decided that this was a key part of the websites identity so didn't change this. I found that other scores were fairly consistent on both desktop and mobile.
+    - See below the lighthouse scores:
+        + [Home Desktop](documentation\read_me_images\lighthouse_home_desktop.png)
+        + [Vineyard Desktop](documentation\read_me_images\lighthouse_vineyard_desktop.png)
+        + [Cafe Desktop](documentation\read_me_images\lighthouse_cafe_desktop.png)
+        + [Events Desktop](documentation\read_me_images\lighthouse_events_desktop.png)
+        + [Contact Desktop](documentation\read_me_images\lighthouse_contact_desktop.png)
+        + [Home Mobile](documentation\read_me_images\lighthouse_home_mobile.png)
+        + [Vineyard Mobile](documentation\read_me_images\lighthouse_vineyard_mobile.png)
+        + [Cafe Mobile](documentation\read_me_images\lighthouse_cafe_mobile.png)
+        + [Events Mobile](documentation\read_me_images\lighthouse_events_mobile.png)
+        + [Contact Mobile](documentation\read_me_images\lighthouse_contact_mobile.png)
 + #### Routine Testing.
 + #### User story testing
 + #### w3c testing validator
@@ -432,6 +445,7 @@ In your IDE Terminal, type the following command to clone my repository:
 + #### Tools
     - I used [logo.com](https://logo.com/) to create the logo for the website.
     - I used [Compressjpg](https://compressjpeg.com/) to compress the images for the website to improve performance.
+    - I used [FreeConvert](https://www.freeconvert.com/jpg-to-webp/download) to convert jpegs to webP to improve performance.
 
 ---
 
