@@ -33,29 +33,32 @@ The site can be accessed by this [link](https://secarrel.github.io/rupera-vineya
 
 ### Navbar
 
-+ #### Navigation ![Navbar](documentation/navbar.png)
++ #### Navigation ![Navbar](documentation\read_me_images\navbar_desktop.png)
 
     - Positioned at the top of the page.
     - Contains logo of the company on the left side.
     - Contains navigation links on the right side:
-        * Home -leads to the home page where users can find out what they can do at the vineyard.
-        * Vineyard - leads to the vineyard page which has information specific to the vineyard and grounds. It provides technical information about the grapes and wine produced, as well as information about management practices. At the bottom of the page, visitors are given the option to learn more by attending a wine tasting or a tour. 
-        * Café - leads to the café page. The café is where most activities take place on the vineyard so this is expressed. Information is then provided about what visitors can do at the café, followed by a gallery to show the atmosphere and help visitors decide if they would like to visit.
-        * Events - Leads to the events page. This is split into an 'Upcoming Events' section and a 'Weekly Events' section, which is the same as shown on the home page, to avoid having to flick between pages. This page gives up to date information and timings of events.
-        * Contact Us- Leads to the contact us page. This page contains a contact form for people to easily enquire about bookings or anything else. It also provides alternative methods of contacting the vineyard.
-     - The links have an animated hover effect.
+        + Home -leads to the home page where users can find out what they can do at the vineyard.
+        + Vineyard - leads to the vineyard page which has information specific to the vineyard and grounds. It provides technical information about the grapes and wine produced, as well as information about management practices. At the bottom of the page, visitors are given the option to learn more by attending a wine tasting or a tour. 
+        + Café - leads to the café page. The café is where most activities take place on the vineyard so this is expressed. Information is then provided about what visitors can do at the café, followed by a gallery to show the atmosphere and help visitors decide if they would like to visit.
+        + Events - Leads to the events page. This is split into an 'Upcoming Events' section and a 'Weekly Events' section, which is the same as shown on the home page, to avoid having to flick between pages. This page gives up to date information and timings of events.
+        + Contact Us- Leads to the contact us page. This page contains a contact form for people to easily enquire about bookings or anything else. It also provides alternative methods of contacting the vineyard.
+    - The links have an animated hover effect.
     - The navigation is clear and easy to understand for the user.
     - The navigation bar is responsive on different computer monitor sizes, on tabets and on mobile phones. 
-    * The nav bar is split into two lines, one contains the logo and the other contains centred nav links.
+    - The nav bar is split into two lines on smaller desktops, one contains the logo and the other contains centred nav links.
+    ![navbar on smaller desktop screens](documentation\read_me_images\navbar_desktop_small.png)
 
 + On tablets: 
 	-  navigation bar returns to being on one line, logo is positioned on the left and a hamburger menu is implemented and positioned on the right.
-    ![Navbar Tablets](documentation/navbar_tablets.png)
-+ On mobile devices: 
-    - navigation bar filled with the logo in the center and a hamburger menu implemented on the right side of the navigation bar.      
-    ![NavBar Mobile Closed](documentation/navbar_mobile_closed.png)
+    ![Navbar Tablets](documentation\read_me_images\navbar_tablet.png)
     - When the hamburger menu is clicked, there is dropdown menu with the links in the same order, positioned on the left of the screen.
-    ![NavBar Mobile Open](documentation/navbar_mobile_open.png)
+    ![navbar Tablets Open](documentation\read_me_images\navbar_tablet_open.png)
++ On mobile devices: 
+    - navigation bar has the logo in the center and a hamburger menu implemented on the right side of the navigation bar.      
+    ![NavBar Mobile Closed](documentation\read_me_images\navbar_mobile_closed.png)
+    - When the hamburger menu is clicked, there is dropdown menu with the links in the same order, positioned on the left of the screen.
+    ![NavBar Mobile Open](documentation\read_me_images\navbar_mobile_open.png)
 ---
 
 + ### Home Page
@@ -65,7 +68,6 @@ The site can be accessed by this [link](https://secarrel.github.io/rupera-vineya
         * reasons to visit the vineyard.
         * regular activity and events at the vineyard
         * gives a feeling of the atmosphere and personality of the vineyard.
-    ![Home Page](documentation/home_page.png)
 ---
 
 + #### Hero Section
@@ -75,7 +77,7 @@ The site can be accessed by this [link](https://secarrel.github.io/rupera-vineya
         * Emphasises the quality of the wine by mentioning awards.
         * Expresses the care that's but into the wine - hinting at company ethos.
 
-    ![Hero Section](documentation/hero_section.png)
+    ![Hero Section](documentation\read_me_images\welcome_section.png)
 --- 
 
 + #### Things to Enjoy Section
@@ -84,7 +86,7 @@ The site can be accessed by this [link](https://secarrel.github.io/rupera-vineya
     - Explains how visitors can join in with the above activities, providing link to contact page.
 
     
-    ![Thinsg to Enjoy Section](documentation/things_to_enjoy.png)
+    ![Thinsg to Enjoy Section](documentation\read_me_images\things_to_enjoy_section.png)
 
 ---
 
@@ -92,29 +94,29 @@ The site can be accessed by this [link](https://secarrel.github.io/rupera-vineya
     - Highlights the events held every week at the vineyard.
     - Images show previous occurrences of the event for reference and for visitors to decide if it appeals to them.
 ​
-    ![Weekly Events](documentation/weekly_events.png)
+    ![Weekly Events](documentation\read_me_images\weekly_events_section.png)
 ---
 
 - #### Return-to-top Button
 	- Fixed at the bottom right hand corner of the page to allow users to easily return to the top of the page. This has been used instead of having a fixed navbar, to improve user experience.
-    ![Return to top button](documentation/return_to_top.png)
+    ![Return to top button](documentation\read_me_images\return_to_top_button.png)
 ---
 
 + #### Footer
     - Footer contains social media links that open in a new tab.
 ​
-    ![Footer](documentation/footer.png)
+    ![Footer](documentation\read_me_images\footer.png)
 ---
 
 + ### Vineyard Page
     - A page for the wine enthusiasts and those who would like to learn. 
     - This page has a footer and 'return-to-top' button the same as the home page.
-![Vineyard page](documentation/vineyard.png)
 --- 
 
 - #### Look Down the Rows Section'
     - Has a hero image showing a view down the rows 
     - a heading is positioned on top of the image encouraging visitor to 'look down the rows'. 
+    ![A look down the rows section](documentation\read_me_images\a_look_down_the_rows_section.png)
 ---
 
 - #### About the Vineyard Section
@@ -122,19 +124,18 @@ The site can be accessed by this [link](https://secarrel.github.io/rupera-vineya
     - The first block of text describes the vineyard and grounds in general and describes a brief history.
     - 'Our Grapes' talks in more depth about the varieties of grapes planted and some of their characteristics. There are two images to accompany this text.
     - 'Our wines' provides similar information but describes the wines specifically.
-![About the Vineyard](documentation/about_the_vineyard.png)
+    ![About the Vineyard](documentation\read_me_images\about_the_vineyard_section.png)
 ---
 
 - #### Join Us in The Vines Section
     - Encourages those who are interested in the information above to join a tour or tasting to gain more in depth information.
     - Contains a section on the tour and a section on the tasting with a summary of what's included, price, and a link to book.
-![Join us in the vines](documentation/join_us.png)
+    ![Join us in the vines](documentation\read_me_images\join_us_section.png)
 ---
 
 + ### Café Page
     - A page for those looking for a place to relax or meet friends.
     - This page has a footer and 'return-to-top' button the same as the home page.
-![Cafe](documentation/cafe.png)
 ---
 
 - #### Hero Image
@@ -144,56 +145,55 @@ The site can be accessed by this [link](https://secarrel.github.io/rupera-vineya
 - #### About the Café Section
     - Titled as 'the happy hub of our vineyard' to highlight that this is where most activities take place.
     - Describes the atmosphere, what meals are served and the wide selection of cakes available, under clear headings. 
-![About the cafe](documentation/about_the_cafe.png)
+    ![About the cafe](documentation\read_me_images\about_cafe_section.png)
 ---
 
 - #### Gallery Section
     - A collection of images to give visitors an idea of the food served, the atmosphere and previous events .
-![Gallery](documentation/cafe_gallery.png)
+    ![Gallery](documentation\read_me_images\cafe_gallery_section.png)
 ---
 
 + ### Events Page
     - A page providing details of upcoming events and weekly events. 
     - This page has a footer and 'return-to-top' button the same as the home page.
-![Events](documentation/events.png)
 ---
 
 - #### Upcoming Events Section
     - Displayed chronologically on a timeline so the soonest event is displayed first.
     - A brief description of each event is provided and details of times are also mentioned. 
-![Upcoming Events](documentation/upcoming_events.png)
+    ![Upcoming Events](documentation\read_me_images\upcoming_events_section.png)
 ---
 
 - #### Weekly Events Section
     - Lists the events which are held every week.
     - Similar content to on the home page but with more details of timings and location.
-![Weekly events with more detail](documentation/weekly_events2.png)
+    ![Weekly events with more detail](documentation\read_me_images\detail_weekly_events.png)
 ---
 
 + ### Contact Us Page
     - A page providing details of how to get in touch and make a booking
     - Also displays opening hours. 
     - This page has a footer button the same as the home page but there isn't enough content to require a 'return-to-top' button..
-![Contact Us](documentation/contact_us_page.png)
 ---
 
 - #### Get in Touch Section
     - This contains a form with fields to be filled in which allows the visitor to easily contact the vineyard.
+    ![Contact form](documentation\read_me_images\contact_form.png)
     - The form has required fields to ensure enquiries can be responded to.
     - On completion of the form, user is redirected to a 'thank you' page.
     - The background image displays another aspect of the vineyard.
-![Get in touch](documentation/get_in_touch.png)
+    ![Get in touch](documentation\read_me_images\get_in_touch_section.png)
 ---
 - #### Other Ways to Get in Touch Section
     - Lists opening hours, and the contact details for the vineyard to accommodate those who would like a more in-depth conversation or a faster response. 
-![Contact Details](documentation/contact_details.png)
+    ![Contact Details](documentation\read_me_images\other_ways_to_get_in_touch_section.png)
 ---
 
 + ### Thanks Page
     - Visitor is redirected to this page on completion of the contact form.
     - This acts as confirmation that a message has been sent.
     - It will automatically direct the user to the main page in 10 seconds.
-    ![Response page](documentation/response_page.png)
+    ![Response page](documentation\read_me_images\thanks_page.png)
 ---
 ## Technologies Used
 
@@ -211,7 +211,7 @@ The site can be accessed by this [link](https://secarrel.github.io/rupera-vineya
 
 ### Colour Scheme
 
-![Color pallet](documentation/color_pallet.png)
+![Colour pallet](documentation\read_me_images\colours.png)
 
 - Purple and black were the main colours used to portray the luxury and quality of the vineyard. Purple is also the colour of some grapes so thought this fitted well with the theme of the website. Black also makes the images stand out. Hints of gold are used to highlight buttons and links, as it contrasts well with the darker colours.
 
