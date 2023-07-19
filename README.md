@@ -258,7 +258,7 @@ The site can be accessed by this [link](https://secarrel.github.io/rupera-vineya
 
 ## Testing
 + #### Browser Compatitability
-    - I tested this website on three browsers, Chrome, Edge and Safari and found that each displayed the website as intended and all links and images appeared and worked as expected. Please see the results of browser compatability testing [here](documentation\read_me_images\browser_compatability_table.png).
+    - I tested this website on three browsers, Chrome, Edge and Safari and found that each displayed the website as intended and all links and images appeared and worked as expected. Please see the results of browser compatability testing [here](documentation\read_me_images\browser_compatibility.png).
     - See screenshots from Chrome testing below:
         + [Home Page img1](documentation\read_me_images\chrome_home1.png)
         + [Home Page img2](documentation\read_me_images\chrome_home2.png)
@@ -283,6 +283,16 @@ The site can be accessed by this [link](https://secarrel.github.io/rupera-vineya
         + [Events Page img2](documentation\read_me_images\edge_events2.png)
         + [Contact Page img1](documentation\read_me_images\edge_contact1.png)
         + [Contact Page img2](documentation\read_me_images\edge_contact2.png)
+    - See screenshots from firefox testing below:
+        + [Home Page img1](documentation\read_me_images\firefox_home1.png)
+        + [Vineyard Page img1](documentation\read_me_images\firefox_vineyard1.png)
+        + [Vineyard Page img2](documentation\read_me_images\firefox_vineyard2.png)
+        + [Cafe Page img1](documentation\read_me_images\firefox_cafe1.png)
+        + [Cafe Page img2](documentation\read_me_images\firefox_cafe2.png)
+        + [Events Page img1](documentation\read_me_images\firefox_events1.png)
+        + [Events Page img2](documentation\read_me_images\firefox_events2.png)
+        + [Contact Page img1](documentation\read_me_images\firefox_contact1.png)
+        + [Contact Page img2](documentation\read_me_images\firefox_contact2.png)
     - See screenshots from Safari testing below:
         + [Home Page img1](documentation\read_me_images\safari_home1.png)
         + [Vineyard Page img1](documentation\read_me_images\safari_vineyard2.png)
@@ -342,9 +352,17 @@ The site can be accessed by this [link](https://secarrel.github.io/rupera-vineya
         + [Cafe Mobile](documentation\read_me_images\lighthouse_cafe_mobile.png)
         + [Events Mobile](documentation\read_me_images\lighthouse_events_mobile.png)
         + [Contact Mobile](documentation\read_me_images\lighthouse_contact_mobile.png)
-+ #### Routine Testing.
-+ #### User story testing
+
 + #### w3c testing validator
+    - I used [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to make sure my CSS was correct. The results showed [no errors](documentation\read_me_images\css_validator.png) on submission.
+    - I used [W3C HTML Validator](https://validator.w3.org/) to make sure my HTML was correct. The results showed [no errors](documentation\read_me_images\html_validator.png) on submission.
+
++ #### User story testing
+    - I looked into each one of my user story objectives and navigated my website to see if they were all successful. I found that they were all successfully met but there is room for improvement. For example, the contact form would be more successful as a booking form which would save the user time typing out a long message explaining what they want to book. This however is above my current skill level and is something I hope to include in future projects.
+    - See my user story testing table [here](documentation\read_me_images\user_story_testing.png).
+
++ #### Feature Testing 
+    - I tested all the interactive features on the website by hovering, and clicking. The results of the feature testing can be found [here](documentation\read_me_images\feature_testing.png).
 --- 
 
 + ### Bugs
