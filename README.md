@@ -6,8 +6,6 @@ The Rupera Vineyard website will provide information about what visitors can do 
 
 The site can be accessed by this [link](https://secarrel.github.io/rupera-vineyard/)
 
-![Responsive Mockup](documentation/responsive_mockup.png)
-
 ---
 ## User Stories
 
