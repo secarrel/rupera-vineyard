@@ -219,7 +219,7 @@ The site can be accessed by this [link](https://secarrel.github.io/rupera-vineya
 
 ### Typography
 
-![Main Font](documentation/primary_font.png)
+![Main Font](documentation/read_me_images/primary_font.png)
 
 - 'Cormorant Garamond' Google Font was used throughout the website as it is clear so improves readability but also has 'classy' connotations. 
 
@@ -228,30 +228,30 @@ The site can be accessed by this [link](https://secarrel.github.io/rupera-vineya
 
 #### Mobile devices
 
-- [Home Page. Mobile Screen](documentation/mobile_home_page.png)
-- [Vineyard Page. Mobile Screen](documentation/mobile_vineyard_page.png)
-- [Cafe Page. Mobile Screen](documentation/mobile_cafe_page.png)
-- [Upcoming Events Page. Mobile Screen](documentation/mobile_events_page.png)
-- [Contact Us Page. Mobile Screen](documentation/mobile_contact_us_page.png)
+- [Home Page. Mobile Screen](documentation\wireframe_home_mobile.pdf)
+- [Vineyard Page. Mobile Screen](documentation\wireframe_vineyard_mobile.pdf)
+- [Cafe Page. Mobile Screen](documentation\wireframe_cafe_mobile.pdf)
+- [Events Page. Mobile Screen](documentation\wireframe_events_mobile.pdf)
+- [Contact Us Page. Mobile Screen](documentation\wireframe_contact_mobile.pdf)
 - [Thank you Page. Mobile Screen](documentation/mobile_thanks_page.png)
 
 
 #### Tablets
 
-- [Home Page. Tablet Screen](documentation/tablet_home_page.png)
-- [Vineyard Page. Tablet Screen](documentation/tablet_vineyard_page.png)
-- [Cafe Page. Tablet Screen](documentation/tablet_cafe_page.png)
-- [Upcoming Events Page. Tablet Screen](documentation/tablet_events_page.png)
-- [Contact Us Page. Tablet Screen](documentation/tablet_contact_us_page.png)
+- [Home Page. Tablet Screen](documentation\wireframe_home_tablet.pdf)
+- [Vineyard Page. Tablet Screen](documentation\wireframe_vineyard_tablet.pdf)
+- [Cafe Page. Tablet Screen](documentation\wireframe_cafe_tablet.pdf)
+- [Events Page. Tablet Screen](documentation\wireframe_events_tablet.pdf)
+- [Contact Us Page. Tablet Screen](documentation\wireframe_contact_tablet.pdf)
 - [Thank you Page. Tablet Screen](documentation/tablet_thanks_page.png)
 
 #### Desktop
 
-- [Home Page. Tablet Screen](documentation/desktop_home_page.png)
-- [Vineyard Page. Tablet Screen](documentation/desktop_vineyard_page.png)
-- [Cafe Page. Tablet Screen](documentation/desktop_cafe_page.png)
-- [Upcoming Events Page. Tablet Screen](documentation/desktop_events_page.png)
-- [Contact Us Page. Tablet Screen](documentation/desktop_contact_us_page.png)
+- [Home Page. Desktop Screen](documentation\wireframe_home_desktop.pdf)
+- [Vineyard Page. Desktop Screen](documentation\wireframe_vineyard_desktop.pdf)
+- [Cafe Page. Desktop Screen](documentation\wireframe_cafe_desktop.pdf)
+- [Events Page. Desktop Screen](documentation\wireframe_events_desktop.pdf)
+- [Contact Us Page. Desktop Screen](documentation\wireframe_contact_desktop.pdf)
 - [Thank you Page. Tablet Screen](documentation/desktop_thanks_page.png)
 
 ---
@@ -266,18 +266,24 @@ User story testing
 
 w3c testing validator
 css - webkit errors are bootstraps fault 
+--- 
 
-bugs
-white line 
-moving text 
-scroll arrow needs  a background
-remove label width for form
-clear button on form
-add box shadow to form
-move title to bottom of head
++ #### Bugs
+    - White line at bottom of page:
+        + When scrolled to the end of the page content a white line could be seen. This stood out from the dark footer so I removed it. To find the cause of this bug, I used changed the background colour of different elements and found that there was margin on the '<ul>' element which contained the social media links in the footer. I set this margin to '0' and this fixed the bug.
+        ![White Line](documentation\read_me_images\white_line_bug.png)  
+    - scroll arrow behind carousel on small screens:
+        + When testing responisveness of website, I found that the 'return to top arrow' was hideen behind the carousel caption. I adjusted the z-index and gave the arrow a background to improve its visibility. This resolved the bug and improved UX. 
+        ![Return-to-top arrow hidden by carousel](documentation\read_me_images\return-_to_top_bug.png)
+    - Hero image on home page not full width when resizing:
+        + The hero image wasn't filling the allocated space when resizing. This left a white space to the right of the image which looked bad and provided a poor UX. To resolve this I changed the sizing of the image at the smaller breakpoints to provide a max and min width. This resolved the bug and has improved UX. 
+        ![Hero image not filling allocated space](documentation\read_me_images\hero_image_bug.png)
+--- 
 
-unsolved bug 
-img gallery
++ #### Unresolved bugs 
+    - Image gallery on Cafe page:
+        + The images don't align at the bottom of the page due to the different sized images in the columns I craeted in order to display the images as a gallery. I looked at different ways of presenting these images in order to improve the apprearance and UX, but had trouble improving the appearance of the gallery. I have left this bug in the website but don't believe it has a notable negative affect on UX.
+        ![Cafe Gallery mis-aligned](documentation\read_me_images\cafe_gallery_bug.png)
 
 ---
 
@@ -319,38 +325,38 @@ In your IDE Terminal, type the following command to clone my repository:
 + #### Media
 
     - The following images for the website were taken from [Unsplash](https://unsplash.com/).
-        * [look_down_the_row](https://unsplash.com/photos/xJaH5xwVJ_Y?utm);
-        * [red_grapes](https://unsplash.com/photos/GStG5UkTeOE?utm)
-        * [white_grapes](https://unsplash.com/photos/V_X0uBi_8eQ?utm);
+        + [look_down_the_row](https://unsplash.com/photos/xJaH5xwVJ_Y?utm);
+        + [red_grapes](https://unsplash.com/photos/GStG5UkTeOE?utm)
+        + [white_grapes](https://unsplash.com/photos/V_X0uBi_8eQ?utm);
     - The following images for the website were taken from [Pixels](https://www.pexels.com/).
-        * [vines_and_views](https://www.pexels.com/photo/pathway-under-clouds-and-blue-sky-1277181/);
-        * [arty_red_grapes](https://www.pexels.com/photo/grapes-vineyard-vine-purple-grapes-39511/);
-        * [wildflower_butterfly](https://www.pexels.com/photo/butterflies-on-flowers-in-meadow-13408190/); 
-        * [iced_coffee](https://www.pexels.com/photo/iced-coffees-on-a-small-wooden-table-16446300/); 
-        * [cafe_window](https://www.pexels.com/photo/interior-of-modern-cafe-with-big-window-4450335/)
-        * [menu_and_food](https://www.pexels.com/photo/vegetable-salad-served-on-table-with-beef-steak-in-restaurant-4551832/)
-        * [healthy_breakfast](https://www.pexels.com/photo/delicious-dessert-with-fruits-and-juice-on-table-4553031/)
-        * [working_in_cafe](https://www.pexels.com/photo/colleagues-working-on-netbook-in-cafe-6205491/)
-        * [cafe_friends](https://www.pexels.com/photo/cheerful-asian-friends-resting-in-cafe-5709523/)
-        * [cakes](https://www.pexels.com/photo/bake-pastry-on-short-stem-cake-tray-863006/)
-        * [coffee](https://www.pexels.com/photo/beverage-breakfast-cafe-caffeine-374147/)
-        * [wine_tasting1](https://www.pexels.com/photo/woman-in-black-tank-top-holding-bottle-pouring-wine-on-clear-wine-glass-8775173/)
-        * [wine_tasting2](https://www.pexels.com/photo/person-holding-clear-wine-glass-8775458/)
-        * [harvest](https://www.pexels.com/photo/woman-carrying-black-crate-10188044/)
-        * [walk_the_vines](https://www.pexels.com/photo/woman-at-a-vineyard-14904749/)
-        * [meriachi_band](https://www.pexels.com/photo/men-in-black-and-white-suit-playing-a-guitar-8919080/)
-        * [sing_song](https://www.pexels.com/photo/people-gathering-in-room-2735037/)
-        * [pizza_party1](https://www.pexels.com/photo/woman-holding-pizza-slice-7148991/)
-        * [pizza_party2](https://www.pexels.com/photo/woman-eating-pizza-7148990/)
-        * [pizza_party3](https://www.pexels.com/photo/three-women-eating-pizza-7148992/)
-        * [cheese_wine1](https://www.pexels.com/photo/close-up-of-wine-and-fruits-248413/)
-        * [cheese_wine2](https://www.pexels.com/photo/a-wine-bottle-near-the-wooden-plate-with-cheese-and-grapes-8473177/)
-        * [taco_tuesdays1](https://www.pexels.com/photo/tacos-on-a-cutting-board-juice-in-glass-and-spices-4958641/)
-        * [taco_tuesdays2](https://www.pexels.com/photo/mexican-tacos-with-salsa-4958731/)
-        * [taco_tuesday3](https://www.pexels.com/photo/smiling-woman-playing-the-ukulele-8479706/)
-        * [mariachi_band3](https://www.pexels.com/photo/a-mariachi-band-playing-at-a-bar-8919751/)
-        * [wines](https://www.pexels.com/photo/close-up-shot-of-glasses-of-alcoholic-beverages-7283410/)
-        * [wine_barrels](https://www.pexels.com/photo/alcohol-barrel-basement-beer-434311/)
+        + [vines_and_views](https://www.pexels.com/photo/pathway-under-clouds-and-blue-sky-1277181/);
+        + [arty_red_grapes](https://www.pexels.com/photo/grapes-vineyard-vine-purple-grapes-39511/);
+        + [wildflower_butterfly](https://www.pexels.com/photo/butterflies-on-flowers-in-meadow-13408190/); 
+        + [iced_coffee](https://www.pexels.com/photo/iced-coffees-on-a-small-wooden-table-16446300/); 
+        + [cafe_window](https://www.pexels.com/photo/interior-of-modern-cafe-with-big-window-4450335/)
+        + [menu_and_food](https://www.pexels.com/photo/vegetable-salad-served-on-table-with-beef-steak-in-restaurant-4551832/)
+        + [healthy_breakfast](https://www.pexels.com/photo/delicious-dessert-with-fruits-and-juice-on-table-4553031/)
+        + [working_in_cafe](https://www.pexels.com/photo/colleagues-working-on-netbook-in-cafe-6205491/)
+        + [cafe_friends](https://www.pexels.com/photo/cheerful-asian-friends-resting-in-cafe-5709523/)
+        + [cakes](https://www.pexels.com/photo/bake-pastry-on-short-stem-cake-tray-863006/)
+        + [coffee](https://www.pexels.com/photo/beverage-breakfast-cafe-caffeine-374147/)
+        + [wine_tasting1](https://www.pexels.com/photo/woman-in-black-tank-top-holding-bottle-pouring-wine-on-clear-wine-glass-8775173/)
+        + [wine_tasting2](https://www.pexels.com/photo/person-holding-clear-wine-glass-8775458/)
+        + [harvest](https://www.pexels.com/photo/woman-carrying-black-crate-10188044/)
+        + [walk_the_vines](https://www.pexels.com/photo/woman-at-a-vineyard-14904749/)
+        + [meriachi_band](https://www.pexels.com/photo/men-in-black-and-white-suit-playing-a-guitar-8919080/)
+        + [sing_song](https://www.pexels.com/photo/people-gathering-in-room-2735037/)
+        + [pizza_party1](https://www.pexels.com/photo/woman-holding-pizza-slice-7148991/)
+        + [pizza_party2](https://www.pexels.com/photo/woman-eating-pizza-7148990/)
+        + [pizza_party3](https://www.pexels.com/photo/three-women-eating-pizza-7148992/)
+        + [cheese_wine1](https://www.pexels.com/photo/close-up-of-wine-and-fruits-248413/)
+        + [cheese_wine2](https://www.pexels.com/photo/a-wine-bottle-near-the-wooden-plate-with-cheese-and-grapes-8473177/)
+        + [taco_tuesdays1](https://www.pexels.com/photo/tacos-on-a-cutting-board-juice-in-glass-and-spices-4958641/)
+        + [taco_tuesdays2](https://www.pexels.com/photo/mexican-tacos-with-salsa-4958731/)
+        + [taco_tuesday3](https://www.pexels.com/photo/smiling-woman-playing-the-ukulele-8479706/)
+        + [mariachi_band3](https://www.pexels.com/photo/a-mariachi-band-playing-at-a-bar-8919751/)
+        + [wines](https://www.pexels.com/photo/close-up-shot-of-glasses-of-alcoholic-beverages-7283410/)
+        + [wine_barrels](https://www.pexels.com/photo/alcohol-barrel-basement-beer-434311/)
 
 
 + #### Tools
