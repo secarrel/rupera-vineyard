@@ -257,18 +257,16 @@ The site can be accessed by this [link](https://secarrel.github.io/rupera-vineya
 ---
 
 ## Testing
-testing 
-compatitability on 3-4 browsers. 
-responsive viewer. for each page.
-Lighthouse.
-Routine Testing.
-User story testing
-
-w3c testing validator
-css - webkit errors are bootstraps fault 
++ #### Manual testing 
++ #### compatitability on 3-4 browsers. 
++ #### responsive viewer. for each page.
++ #### Lighthouse.
++ #### Routine Testing.
++ #### User story testing
++ #### w3c testing validator
 --- 
 
-+ #### Bugs
++ ### Bugs
     - White line at bottom of page:
         + When scrolled to the end of the page content a white line could be seen. This stood out from the dark footer so I removed it. To find the cause of this bug, I used changed the background colour of different elements and found that there was margin on the '<ul>' element which contained the social media links in the footer. I set this margin to '0' and this fixed the bug.
         ![White Line](documentation\read_me_images\white_line_bug.png)  
@@ -278,6 +276,9 @@ css - webkit errors are bootstraps fault
     - Hero image on home page not full width when resizing:
         + The hero image wasn't filling the allocated space when resizing. This left a white space to the right of the image which looked bad and provided a poor UX. To resolve this I changed the sizing of the image at the smaller breakpoints to provide a max and min width. This resolved the bug and has improved UX. 
         ![Hero image not filling allocated space](documentation\read_me_images\hero_image_bug.png)
+    - Contact form labels misaligned:
+        + The labels in the contact form weren't aligned correctly on smaller screens so I adjusted the sizing and alignment on smaller screens to fix this bug.
+        ![Label misalignment](documentation\read_me_images\label_misaligned1.png)![Label misaligned smaller screen](documentation\read_me_images\label_misaligned2.png)
 --- 
 
 + #### Unresolved bugs 
