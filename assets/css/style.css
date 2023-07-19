@@ -723,7 +723,7 @@ footer {
     margin: 5px;
 }
 
-#messagelabel {
+#messagelabelcontact {
     width: 423px;
     text-align: left;
     margin: 0;
@@ -1139,8 +1139,8 @@ footer {
         padding: 10px 16px 10px 10px;
     }
 
-    #messagelabel {
-        width: 95%;
+    #messagelabelcontact {
+        width: 90%;
         text-align: left;
         margin: 0;
     }
@@ -1216,5 +1216,16 @@ footer {
     /*join us in the vines */
     #contact-us-join-us {
         display: none;
+    }
+
+    /*Contact Us form */
+    #messagelabelcontact {
+        width: 95%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .contact-form fieldset label {
+        text-align: center;
     }
 }
