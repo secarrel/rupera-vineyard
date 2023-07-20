@@ -1,5 +1,5 @@
 
-![Rupera Vineyard Logo](documentation\read_me_images\logo_rupera_vineyard.png)
+![Rupera Vineyard Logo](documentation/read_me_images/logo_rupera_vineyard.png)
 # *Rupera Vineyard*
 
 The Rupera Vineyard website will provide information about what visitors can do at the vineyard, the vineyard history, technical information and a will provide ways for visitors to get in touch.  The website visitors will be able to request to book onto any events, tours, tastings or a table by filling in the contact form provided. 
@@ -31,7 +31,7 @@ The site can be accessed by this [link](https://secarrel.github.io/rupera-vineya
 
 ### Navbar
 
-+ #### Navigation ![Navbar](documentation\read_me_images\navbar_desktop.png)
++ #### Navigation ![Navbar](documentation/read_me_images/navbar_desktop.png)
 
     - Positioned at the top of the page.
     - Contains logo of the company on the left side.
@@ -45,18 +45,18 @@ The site can be accessed by this [link](https://secarrel.github.io/rupera-vineya
     - The navigation is clear and easy to understand for the user.
     - The navigation bar is responsive on different computer monitor sizes, on tabets and on mobile phones. 
     - The nav bar is split into two lines on smaller desktops, one contains the logo and the other contains centred nav links.
-    ![navbar on smaller desktop screens](documentation\read_me_images\navbar_desktop_small.png)
+    ![navbar on smaller desktop screens](documentation/read_me_images/navbar_desktop_small.png)
 
 + On tablets: 
 	-  navigation bar returns to being on one line, logo is positioned on the left and a hamburger menu is implemented and positioned on the right.
-    ![Navbar Tablets](documentation\read_me_images\navbar_tablet.png)
+    ![Navbar Tablets](documentation/read_me_images/navbar_tablet.png)
     - When the hamburger menu is clicked, there is dropdown menu with the links in the same order, positioned on the left of the screen.
-    ![navbar Tablets Open](documentation\read_me_images\navbar_tablet_open.png)
+    ![navbar Tablets Open](documentation/read_me_images/navbar_tablet_open.png)
 + On mobile devices: 
     - navigation bar has the logo in the center and a hamburger menu implemented on the right side of the navigation bar.      
-    ![NavBar Mobile Closed](documentation\read_me_images\navbar_mobile_closed.png)
+    ![NavBar Mobile Closed](documentation/read_me_images/navbar_mobile_closed.png)
     - When the hamburger menu is clicked, there is dropdown menu with the links in the same order, positioned on the left of the screen.
-    ![NavBar Mobile Open](documentation\read_me_images\navbar_mobile_open.png)
+    ![NavBar Mobile Open](documentation/read_me_images/navbar_mobile_open.png)
 ---
 
 + ### Home Page
@@ -75,7 +75,7 @@ The site can be accessed by this [link](https://secarrel.github.io/rupera-vineya
         * Emphasises the quality of the wine by mentioning awards.
         * Expresses the care that's but into the wine - hinting at company ethos.
 
-    ![Hero Section](documentation\read_me_images\welcome_section.png)
+    ![Hero Section](documentation/read_me_images/welcome_section.png)
 --- 
 
 + #### Things to Enjoy Section
@@ -84,7 +84,7 @@ The site can be accessed by this [link](https://secarrel.github.io/rupera-vineya
     - Explains how visitors can join in with the above activities, providing link to contact page.
 
     
-    ![Thinsg to Enjoy Section](documentation\read_me_images\things_to_enjoy_section.png)
+    ![Thinsg to Enjoy Section](documentation/read_me_images/things_to_enjoy_section.png)
 
 ---
 
@@ -92,18 +92,18 @@ The site can be accessed by this [link](https://secarrel.github.io/rupera-vineya
     - Highlights the events held every week at the vineyard.
     - Images show previous occurrences of the event for reference and for visitors to decide if it appeals to them.
 ​
-    ![Weekly Events](documentation\read_me_images\weekly_events_section.png)
+    ![Weekly Events](documentation/read_me_images/weekly_events_section.png)
 ---
 
 - #### Return-to-top Button
 	- Fixed at the bottom right hand corner of the page to allow users to easily return to the top of the page. This has been used instead of having a fixed navbar, to improve user experience.
-    ![Return to top button](documentation\read_me_images\return_to_top_button.png)
+    ![Return to top button](documentation/read_me_images/return_to_top_button.png)
 ---
 
 + #### Footer
     - Footer contains social media links that open in a new tab.
 ​
-    ![Footer](documentation\read_me_images\footer.png)
+    ![Footer](documentation/read_me_images/footer.png)
 ---
 
 + ### Vineyard Page
@@ -114,7 +114,7 @@ The site can be accessed by this [link](https://secarrel.github.io/rupera-vineya
 - #### Look Down the Rows Section'
     - Has a hero image showing a view down the rows 
     - a heading is positioned on top of the image encouraging visitor to 'look down the rows'. 
-    ![A look down the rows section](documentation\read_me_images\a_look_down_the_rows_section.png)
+    ![A look down the rows section](documentation/read_me_images/a_look_down_the_rows_section.png)
 ---
 
 - #### About the Vineyard Section
@@ -122,13 +122,13 @@ The site can be accessed by this [link](https://secarrel.github.io/rupera-vineya
     - The first block of text describes the vineyard and grounds in general and describes a brief history.
     - 'Our Grapes' talks in more depth about the varieties of grapes planted and some of their characteristics. There are two images to accompany this text.
     - 'Our wines' provides similar information but describes the wines specifically.
-    ![About the Vineyard](documentation\read_me_images\about_the_vineyard_section.png)
+    ![About the Vineyard](documentation/read_me_images/about_the_vineyard_section.png)
 ---
 
 - #### Join Us in The Vines Section
     - Encourages those who are interested in the information above to join a tour or tasting to gain more in depth information.
     - Contains a section on the tour and a section on the tasting with a summary of what's included, price, and a link to book.
-    ![Join us in the vines](documentation\read_me_images\join_us_section.png)
+    ![Join us in the vines](documentation/read_me_images/join_us_section.png)
 ---
 
 + ### Café Page
@@ -143,12 +143,12 @@ The site can be accessed by this [link](https://secarrel.github.io/rupera-vineya
 - #### About the Café Section
     - Titled as 'the happy hub of our vineyard' to highlight that this is where most activities take place.
     - Describes the atmosphere, what meals are served and the wide selection of cakes available, under clear headings. 
-    ![About the cafe](documentation\read_me_images\about_cafe_section.png)
+    ![About the cafe](documentation/read_me_images/about_cafe_section.png)
 ---
 
 - #### Gallery Section
     - A collection of images to give visitors an idea of the food served, the atmosphere and previous events .
-    ![Gallery](documentation\read_me_images\cafe_gallery_section.png)
+    ![Gallery](documentation/read_me_images/cafe_gallery_section.png)
 ---
 
 + ### Events Page
@@ -159,13 +159,13 @@ The site can be accessed by this [link](https://secarrel.github.io/rupera-vineya
 - #### Upcoming Events Section
     - Displayed chronologically on a timeline so the soonest event is displayed first.
     - A brief description of each event is provided and details of times are also mentioned. 
-    ![Upcoming Events](documentation\read_me_images\upcoming_events_section.png)
+    ![Upcoming Events](documentation/read_me_images/upcoming_events_section.png)
 ---
 
 - #### Weekly Events Section
     - Lists the events which are held every week.
     - Similar content to on the home page but with more details of timings and location.
-    ![Weekly events with more detail](documentation\read_me_images\detail_weekly_events.png)
+    ![Weekly events with more detail](documentation/read_me_images/detail_weekly_events.png)
 ---
 
 + ### Contact Us Page
@@ -176,22 +176,22 @@ The site can be accessed by this [link](https://secarrel.github.io/rupera-vineya
 
 - #### Get in Touch Section
     - This contains a form with fields to be filled in which allows the visitor to easily contact the vineyard.
-    ![Contact form](documentation\read_me_images\contact_form.png)
+    ![Contact form](documentation/read_me_images/contact_form.png)
     - The form has required fields to ensure enquiries can be responded to.
     - On completion of the form, user is redirected to a 'thank you' page.
     - The background image displays another aspect of the vineyard.
-    ![Get in touch](documentation\read_me_images\get_in_touch_section.png)
+    ![Get in touch](documentation/read_me_images/get_in_touch_section.png)
 ---
 - #### Other Ways to Get in Touch Section
     - Lists opening hours, and the contact details for the vineyard to accommodate those who would like a more in-depth conversation or a faster response. 
-    ![Contact Details](documentation\read_me_images\other_ways_to_get_in_touch_section.png)
+    ![Contact Details](documentation/read_me_images/other_ways_to_get_in_touch_section.png)
 ---
 
 + ### Thanks Page
     - Visitor is redirected to this page on completion of the contact form.
     - This acts as confirmation that a message has been sent.
     - It will automatically direct the user to the main page in 10 seconds.
-    ![Response page](documentation\read_me_images\thanks_page.png)
+    ![Response page](documentation/read_me_images/thanks_page.png)
 ---
 ## Technologies Used
 
@@ -209,7 +209,7 @@ The site can be accessed by this [link](https://secarrel.github.io/rupera-vineya
 
 ### Colour Scheme
 
-![Colour pallet](documentation\read_me_images\colours.png)
+![Colour pallet](documentation/read_me_images/colours.png)
 
 - Purple and black were the main colours used to portray the luxury and quality of the vineyard. Purple is also the colour of some grapes so thought this fitted well with the theme of the website. Black also makes the images stand out. Hints of gold are used to highlight buttons and links, as it contrasts well with the darker colours.
 
@@ -226,162 +226,162 @@ The site can be accessed by this [link](https://secarrel.github.io/rupera-vineya
 
 #### Mobile devices
 
-- [Home Page. Mobile Screen](documentation\wireframe_home_mobile.pdf)
-- [Vineyard Page. Mobile Screen](documentation\wireframe_vineyard_mobile.pdf)
-- [Cafe Page. Mobile Screen](documentation\wireframe_cafe_mobile.pdf)
-- [Events Page. Mobile Screen](documentation\wireframe_events_mobile.pdf)
-- [Contact Us Page. Mobile Screen](documentation\wireframe_contact_mobile.pdf)
+- [Home Page. Mobile Screen](documentation/wireframe_home_mobile.pdf)
+- [Vineyard Page. Mobile Screen](documentation/wireframe_vineyard_mobile.pdf)
+- [Cafe Page. Mobile Screen](documentation/wireframe_cafe_mobile.pdf)
+- [Events Page. Mobile Screen](documentation/wireframe_events_mobile.pdf)
+- [Contact Us Page. Mobile Screen](documentation/wireframe_contact_mobile.pdf)
 - [Thank you Page. Mobile Screen](documentation/mobile_thanks_page.png)
 
 
 #### Tablets
 
-- [Home Page. Tablet Screen](documentation\wireframe_home_tablet.pdf)
-- [Vineyard Page. Tablet Screen](documentation\wireframe_vineyard_tablet.pdf)
-- [Cafe Page. Tablet Screen](documentation\wireframe_cafe_tablet.pdf)
-- [Events Page. Tablet Screen](documentation\wireframe_events_tablet.pdf)
-- [Contact Us Page. Tablet Screen](documentation\wireframe_contact_tablet.pdf)
+- [Home Page. Tablet Screen](documentation/wireframe_home_tablet.pdf)
+- [Vineyard Page. Tablet Screen](documentation/wireframe_vineyard_tablet.pdf)
+- [Cafe Page. Tablet Screen](documentation/wireframe_cafe_tablet.pdf)
+- [Events Page. Tablet Screen](documentation/wireframe_events_tablet.pdf)
+- [Contact Us Page. Tablet Screen](documentation/wireframe_contact_tablet.pdf)
 - [Thank you Page. Tablet Screen](documentation/tablet_thanks_page.png)
 
 #### Desktop
 
-- [Home Page. Desktop Screen](documentation\wireframe_home_desktop.pdf)
-- [Vineyard Page. Desktop Screen](documentation\wireframe_vineyard_desktop.pdf)
-- [Cafe Page. Desktop Screen](documentation\wireframe_cafe_desktop.pdf)
-- [Events Page. Desktop Screen](documentation\wireframe_events_desktop.pdf)
-- [Contact Us Page. Desktop Screen](documentation\wireframe_contact_desktop.pdf)
+- [Home Page. Desktop Screen](documentation/wireframe_home_desktop.pdf)
+- [Vineyard Page. Desktop Screen](documentation/wireframe_vineyard_desktop.pdf)
+- [Cafe Page. Desktop Screen](documentation/wireframe_cafe_desktop.pdf)
+- [Events Page. Desktop Screen](documentation/wireframe_events_desktop.pdf)
+- [Contact Us Page. Desktop Screen](documentation/wireframe_contact_desktop.pdf)
 - [Thank you Page. Tablet Screen](documentation/desktop_thanks_page.png)
 
 ---
 
 ## Testing
 + #### Browser Compatitability
-    - I tested this website on three browsers, Chrome, Edge and Safari and found that each displayed the website as intended and all links and images appeared and worked as expected. Please see the results of browser compatability testing [here](documentation\read_me_images\browser_compatibility.png).
+    - I tested this website on three browsers, Chrome, Edge and Safari and found that each displayed the website as intended and all links and images appeared and worked as expected. Please see the results of browser compatability testing [here](documentation/read_me_images/browser_compatibility.png).
     - See screenshots from Chrome testing below:
-        + [Home Page img1](documentation\read_me_images\chrome_home1.png)
-        + [Home Page img2](documentation\read_me_images\chrome_home2.png)
-        + [Home Page img3](documentation\read_me_images\chrome_home3.png)
-        + [Vineyard Page img1](documentation\read_me_images\chrome_vineyard1.png)
-        + [Vineyard Page img2](documentation\read_me_images\chrome_vineyard2.png)
-        + [Cafe Page img1](documentation\read_me_images\chrome_cafe1.png)
-        + [Cafe Page img2](documentation\read_me_images\chrome_cafe2.png)
-        + [Events Page img1](documentation\read_me_images\chrome_events1.png)
-        + [Events Page img2](documentation\read_me_images\chrome_events2.png)
-        + [Contact Page img1](documentation\read_me_images\chrome_contact1.png)
-        + [Contact Page img2](documentation\read_me_images\chrome_contact2.png)
+        + [Home Page img1](documentation/read_me_images/chrome_home1.png)
+        + [Home Page img2](documentation/read_me_images/chrome_home2.png)
+        + [Home Page img3](documentation/read_me_images/chrome_home3.png)
+        + [Vineyard Page img1](documentation/read_me_images/chrome_vineyard1.png)
+        + [Vineyard Page img2](documentation/read_me_images/chrome_vineyard2.png)
+        + [Cafe Page img1](documentation/read_me_images/chrome_cafe1.png)
+        + [Cafe Page img2](documentation/read_me_images/chrome_cafe2.png)
+        + [Events Page img1](documentation/read_me_images/chrome_events1.png)
+        + [Events Page img2](documentation/read_me_images/chrome_events2.png)
+        + [Contact Page img1](documentation/read_me_images/chrome_contact1.png)
+        + [Contact Page img2](documentation/read_me_images/chrome_contact2.png)
     - See screenshots from Edge testing below:
-        + [Home Page img1](documentation\read_me_images\edge_home1.png)
-        + [Home Page img2](documentation\read_me_images\edge_home2.png)
-        + [Home Page img3](documentation\read_me_images\edge_home3.png)
-        + [Vineyard Page img1](documentation\read_me_images\edge_vineyard1.png)
-        + [Vineyard Page img2](documentation\read_me_images\edge_vineyard2.png)
-        + [Cafe Page img1](documentation\read_me_images\edge_cafe1.png)
-        + [Cafe Page img2](documentation\read_me_images\edge_cafe2.png)
-        + [Events Page img1](documentation\read_me_images\edge_events1.png)
-        + [Events Page img2](documentation\read_me_images\edge_events2.png)
-        + [Contact Page img1](documentation\read_me_images\edge_contact1.png)
-        + [Contact Page img2](documentation\read_me_images\edge_contact2.png)
+        + [Home Page img1](documentation/read_me_images/edge_home1.png)
+        + [Home Page img2](documentation/read_me_images/edge_home2.png)
+        + [Home Page img3](documentation/read_me_images/edge_home3.png)
+        + [Vineyard Page img1](documentation/read_me_images/edge_vineyard1.png)
+        + [Vineyard Page img2](documentation/read_me_images/edge_vineyard2.png)
+        + [Cafe Page img1](documentation/read_me_images/edge_cafe1.png)
+        + [Cafe Page img2](documentation/read_me_images/edge_cafe2.png)
+        + [Events Page img1](documentation/read_me_images/edge_events1.png)
+        + [Events Page img2](documentation/read_me_images/edge_events2.png)
+        + [Contact Page img1](documentation/read_me_images/edge_contact1.png)
+        + [Contact Page img2](documentation/read_me_images/edge_contact2.png)
     - See screenshots from firefox testing below:
-        + [Home Page img1](documentation\read_me_images\firefox_home1.png)
-        + [Vineyard Page img1](documentation\read_me_images\firefox_vineyard1.png)
-        + [Vineyard Page img2](documentation\read_me_images\firefox_vineyard2.png)
-        + [Cafe Page img1](documentation\read_me_images\firefox_cafe1.png)
-        + [Cafe Page img2](documentation\read_me_images\firefox_cafe2.png)
-        + [Events Page img1](documentation\read_me_images\firefox_events1.png)
-        + [Events Page img2](documentation\read_me_images\firefox_events2.png)
-        + [Contact Page img1](documentation\read_me_images\firefox_contact1.png)
-        + [Contact Page img2](documentation\read_me_images\firefox_contact2.png)
+        + [Home Page img1](documentation/read_me_images/firefox_home1.png)
+        + [Vineyard Page img1](documentation/read_me_images/firefox_vineyard1.png)
+        + [Vineyard Page img2](documentation/read_me_images/firefox_vineyard2.png)
+        + [Cafe Page img1](documentation/read_me_images/firefox_cafe1.png)
+        + [Cafe Page img2](documentation/read_me_images/firefox_cafe2.png)
+        + [Events Page img1](documentation/read_me_images/firefox_events1.png)
+        + [Events Page img2](documentation/read_me_images/firefox_events2.png)
+        + [Contact Page img1](documentation/read_me_images/firefox_contact1.png)
+        + [Contact Page img2](documentation/read_me_images/firefox_contact2.png)
     - See screenshots from Safari testing below:
-        + [Home Page img1](documentation\read_me_images\safari_home1.png)
-        + [Vineyard Page img1](documentation\read_me_images\safari_vineyard2.png)
-        + [Cafe Page img1](documentation\read_me_images\safari_cafe1.png)
-        + [Cafe Page img2](documentation\read_me_images\safari_cafe2.png)
-        + [Events Page img1](documentation\read_me_images\safari_events1.png)
-        + [Events Page img2](documentation\read_me_images\safari_events2.png)
-        + [Contact Page img1](documentation\read_me_images\safari_contact1.png)
-        + [Contact Page img2](documentation\read_me_images\safari_contact2.png)
+        + [Home Page img1](documentation/read_me_images/safari_home1.png)
+        + [Vineyard Page img1](documentation/read_me_images/safari_vineyard2.png)
+        + [Cafe Page img1](documentation/read_me_images/safari_cafe1.png)
+        + [Cafe Page img2](documentation/read_me_images/safari_cafe2.png)
+        + [Events Page img1](documentation/read_me_images/safari_events1.png)
+        + [Events Page img2](documentation/read_me_images/safari_events2.png)
+        + [Contact Page img1](documentation/read_me_images/safari_contact1.png)
+        + [Contact Page img2](documentation/read_me_images/safari_contact2.png)
 
 + #### Responisiveness Testing
-    - I have tested this website on 3 different mobile screen sizes, 3 different tablet screen sizes and 2 desktop screen sizes. Please view the results of this testing [here](documentation\read_me_images\responsivenes_table.png).
+    - I have tested this website on 3 different mobile screen sizes, 3 different tablet screen sizes and 2 desktop screen sizes. Please view the results of this testing [here](documentation/read_me_images/responsivenes_table.png).
     - See below screenshots from mobile testing:
-        + [Home Page img1](documentation\read_me_images\responsive_mobile_home1.png)
-        + [Home Page img2](documentation\read_me_images\responsive_mobile_home2.png)
-        + [Vineyard Page img1](documentation\read_me_images\responsive_mobile_vineyard1.png)
-        + [Vineyard Page img2](documentation\read_me_images\responsive_mobile_vineyard2.png)
-        + [Cafe Page img1](documentation\read_me_images\responsive_mobile_cafe1.png)
-        + [Cafe Page img2](documentation\read_me_images\responsive_mobile_cafe2.png)
-        + [Events Page img1](documentation\read_me_images\responsive_mobile_events1.png)
-        + [Events Page img2](documentation\read_me_images\responsive_mobile_events2.png)
-        + [Contact Page img1](documentation\read_me_images\responsive_mobile_contact1.png)
-        + [Contact Page img2](documentation\read_me_images\responsive_mobile_contact2.png)
+        + [Home Page img1](documentation/read_me_images/responsive_mobile_home1.png)
+        + [Home Page img2](documentation/read_me_images/responsive_mobile_home2.png)
+        + [Vineyard Page img1](documentation/read_me_images/responsive_mobile_vineyard1.png)
+        + [Vineyard Page img2](documentation/read_me_images/responsive_mobile_vineyard2.png)
+        + [Cafe Page img1](documentation/read_me_images/responsive_mobile_cafe1.png)
+        + [Cafe Page img2](documentation/read_me_images/responsive_mobile_cafe2.png)
+        + [Events Page img1](documentation/read_me_images/responsive_mobile_events1.png)
+        + [Events Page img2](documentation/read_me_images/responsive_mobile_events2.png)
+        + [Contact Page img1](documentation/read_me_images/responsive_mobile_contact1.png)
+        + [Contact Page img2](documentation/read_me_images/responsive_mobile_contact2.png)
     - See below screenshots from tablet testing:
-        + [Home Page img1](documentation\read_me_images\responsive_tablets_home1.png)
-        + [Home Page img2](documentation\read_me_images\responsive_tablets_home2.png)
-        + [Vineyard Page img1](documentation\read_me_images\responsive_tablets_vineyard1.png)
-        + [Vineyard Page img2](documentation\read_me_images\responsive_tablets_vineyard2.png)
-        + [Cafe Page img1](documentation\read_me_images\responsive_tablets_cafe1.png)
-        + [Cafe Page img2](documentation\read_me_images\responsive_tablets_cafe2.png)
-        + [Events Page img1](documentation\read_me_images\responsive_tablets_events1.png)
-        + [Events Page img2](documentation\read_me_images\responsive_tablets_events2.png)
-        + [Contact Page img1](documentation\read_me_images\responsive_tablets_contact1.png)
+        + [Home Page img1](documentation/read_me_images/responsive_tablets_home1.png)
+        + [Home Page img2](documentation/read_me_images/responsive_tablets_home2.png)
+        + [Vineyard Page img1](documentation/read_me_images/responsive_tablets_vineyard1.png)
+        + [Vineyard Page img2](documentation/read_me_images/responsive_tablets_vineyard2.png)
+        + [Cafe Page img1](documentation/read_me_images/responsive_tablets_cafe1.png)
+        + [Cafe Page img2](documentation/read_me_images/responsive_tablets_cafe2.png)
+        + [Events Page img1](documentation/read_me_images/responsive_tablets_events1.png)
+        + [Events Page img2](documentation/read_me_images/responsive_tablets_events2.png)
+        + [Contact Page img1](documentation/read_me_images/responsive_tablets_contact1.png)
     - See below screenshots from Desktop testing:
-        + [Home Page img1](documentation\read_me_images\responsive_desktop_home1.png)
-        + [Home Page img2](documentation\read_me_images\responsive_desktop_home2.png)
-        + [Home Page img3](documentation\read_me_images\responsive_desktop_home3.png)
-        + [Vineyard Page img1](documentation\read_me_images\responsive_desktop_vineyard1.png)
-        + [Vineyard Page img2](documentation\read_me_images\responsive_desktop_vineyard2.png)
-        + [Cafe Page img1](documentation\read_me_images\responsive_desktop_cafe1.png)
-        + [Cafe Page img2](documentation\read_me_images\responsive_desktop_cafe2.png)
-        + [Events Page img1](documentation\read_me_images\responsive_desktop_events1.png)
-        + [Events Page img2](documentation\read_me_images\responsive_desktop_events2.png)
-        + [Contact Page img1](documentation\read_me_images\responsive_desktop_contact1.png)
-        + [Contact Page img2](documentation\read_me_images\responsive_desktop_contact2.png)
+        + [Home Page img1](documentation/read_me_images/responsive_desktop_home1.png)
+        + [Home Page img2](documentation/read_me_images/responsive_desktop_home2.png)
+        + [Home Page img3](documentation/read_me_images/responsive_desktop_home3.png)
+        + [Vineyard Page img1](documentation/read_me_images/responsive_desktop_vineyard1.png)
+        + [Vineyard Page img2](documentation/read_me_images/responsive_desktop_vineyard2.png)
+        + [Cafe Page img1](documentation/read_me_images/responsive_desktop_cafe1.png)
+        + [Cafe Page img2](documentation/read_me_images/responsive_desktop_cafe2.png)
+        + [Events Page img1](documentation/read_me_images/responsive_desktop_events1.png)
+        + [Events Page img2](documentation/read_me_images/responsive_desktop_events2.png)
+        + [Contact Page img1](documentation/read_me_images/responsive_desktop_contact1.png)
+        + [Contact Page img2](documentation/read_me_images/responsive_desktop_contact2.png)
 
 + #### Lighthouse
     - I tested my website with the lighthouse feature in DevTools and found that the website performs far better on desktop than on mobile devices. I considered altering the website to improve this but the main problem seems to be the hero image on each page. I decided that this was a key part of the websites identity so didn't change this. I found that other scores were fairly consistent on both desktop and mobile.
     - See below the lighthouse scores:
-        + [Home Desktop](documentation\read_me_images\lighthouse_home_desktop.png)
-        + [Vineyard Desktop](documentation\read_me_images\lighthouse_vineyard_desktop.png)
-        + [Cafe Desktop](documentation\read_me_images\lighthouse_cafe_desktop.png)
-        + [Events Desktop](documentation\read_me_images\lighthouse_events_desktop.png)
-        + [Contact Desktop](documentation\read_me_images\lighthouse_contact_desktop.png)
-        + [Home Mobile](documentation\read_me_images\lighthouse_home_mobile.png)
-        + [Vineyard Mobile](documentation\read_me_images\lighthouse_vineyard_mobile.png)
-        + [Cafe Mobile](documentation\read_me_images\lighthouse_cafe_mobile.png)
-        + [Events Mobile](documentation\read_me_images\lighthouse_events_mobile.png)
-        + [Contact Mobile](documentation\read_me_images\lighthouse_contact_mobile.png)
+        + [Home Desktop](documentation/read_me_images/lighthouse_home_desktop.png)
+        + [Vineyard Desktop](documentation/read_me_images/lighthouse_vineyard_desktop.png)
+        + [Cafe Desktop](documentation/read_me_images/lighthouse_cafe_desktop.png)
+        + [Events Desktop](documentation/read_me_images/lighthouse_events_desktop.png)
+        + [Contact Desktop](documentation/read_me_images/lighthouse_contact_desktop.png)
+        + [Home Mobile](documentation/read_me_images/lighthouse_home_mobile.png)
+        + [Vineyard Mobile](documentation/read_me_images/lighthouse_vineyard_mobile.png)
+        + [Cafe Mobile](documentation/read_me_images/lighthouse_cafe_mobile.png)
+        + [Events Mobile](documentation/read_me_images/lighthouse_events_mobile.png)
+        + [Contact Mobile](documentation/read_me_images/lighthouse_contact_mobile.png)
 
 + #### w3c testing validator
-    - I used [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to make sure my CSS was correct. The results showed [no errors](documentation\read_me_images\css_validator.png) on submission.
-    - I used [W3C HTML Validator](https://validator.w3.org/) to make sure my HTML was correct. The results showed [no errors](documentation\read_me_images\html_validator.png) on submission.
+    - I used [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to make sure my CSS was correct. The results showed [no errors](documentation/read_me_images/css_validator.png) on submission.
+    - I used [W3C HTML Validator](https://validator.w3.org/) to make sure my HTML was correct. The results showed [no errors](documentation/read_me_images/html_validator.png) on submission.
 
 + #### User story testing
     - I looked into each one of my user story objectives and navigated my website to see if they were all successful. I found that they were all successfully met but there is room for improvement. For example, the contact form would be more successful as a booking form which would save the user time typing out a long message explaining what they want to book. This however is above my current skill level and is something I hope to include in future projects.
-    - See my user story testing table [here](documentation\read_me_images\user_story_testing.png).
+    - See my user story testing table [here](documentation/read_me_images/user_story_testing.png).
 
 + #### Feature Testing 
-    - I tested all the interactive features on the website by hovering, and clicking. The results of the feature testing can be found [here](documentation\read_me_images\feature_testing.png).
+    - I tested all the interactive features on the website by hovering, and clicking. The results of the feature testing can be found [here](documentation/read_me_images/feature_testing.png).
 --- 
 
 + ### Bugs
     - White line at bottom of page:
         + When scrolled to the end of the page content a white line could be seen. This stood out from the dark footer so I removed it. To find the cause of this bug, I used changed the background colour of different elements and found that there was margin on the '<ul>' element which contained the social media links in the footer. I set this margin to '0' and this fixed the bug.
-        ![White Line](documentation\read_me_images\white_line_bug.png)  
+        ![White Line](documentation/read_me_images/white_line_bug.png)  
     - scroll arrow behind carousel on small screens:
         + When testing responisveness of website, I found that the 'return to top arrow' was hideen behind the carousel caption. I adjusted the z-index and gave the arrow a background to improve its visibility. This resolved the bug and improved UX. 
-        ![Return-to-top arrow hidden by carousel](documentation\read_me_images\return-_to_top_bug.png)
+        ![Return-to-top arrow hidden by carousel](documentation/read_me_images/return-_to_top_bug.png)
     - Hero image on home page not full width when resizing:
         + The hero image wasn't filling the allocated space when resizing. This left a white space to the right of the image which looked bad and provided a poor UX. To resolve this I changed the sizing of the image at the smaller breakpoints to provide a max and min width. This resolved the bug and has improved UX. 
-        ![Hero image not filling allocated space](documentation\read_me_images\hero_image_bug.png)
+        ![Hero image not filling allocated space](documentation/read_me_images/hero_image_bug.png)
     - Contact form labels misaligned:
         + The labels in the contact form weren't aligned correctly on smaller screens so I adjusted the sizing and alignment on smaller screens to fix this bug.
-        ![Label misalignment](documentation\read_me_images\label_misaligned1.png)![Label misaligned smaller screen](documentation\read_me_images\label_misaligned2.png)
+        ![Label misalignment](documentation/read_me_images/label_misaligned1.png)![Label misaligned smaller screen](documentation/read_me_images/label_misaligned2.png)
 --- 
 
 + #### Unresolved bugs 
     - Image gallery on Cafe page:
         + The images don't align at the bottom of the page due to the different sized images in the columns I craeted in order to display the images as a gallery. I looked at different ways of presenting these images in order to improve the apprearance and UX, but had trouble improving the appearance of the gallery. I have left this bug in the website but don't believe it has a notable negative affect on UX.
-        ![Cafe Gallery mis-aligned](documentation\read_me_images\cafe_gallery_bug.png)
+        ![Cafe Gallery mis-aligned](documentation/read_me_images/cafe_gallery_bug.png)
     - Text moves around under carousel on home page as images change:
         + I used DevTools to try to identify the problem. It appears that the text has a dependancy of some kind on the carousel images but couldn't work out how to resolve this bug. It is more noticable on mobile display than desktop and only happens when certain images run through the carousel. 
 ---
