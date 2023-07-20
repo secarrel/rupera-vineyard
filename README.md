@@ -216,12 +216,12 @@ The site can be accessed by this [link](https://secarrel.github.io/rupera-vineya
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) was used as the foundation of the site.
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/css) - was used to add the styles and layout of the site.
 - [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) - was used to arrange items simmetrically on the pages.
+- [Bootstrap 4](https://getbootstrap.com/docs/4.6/) was used for styling of navbar and carousel on home page.
 - [Balsamiq](https://balsamiq.com/) was used to make wireframes for the website.
 - [VSCode](https://code.visualstudio.com/) was used as the main tool to write and edit code.
 - [Git](https://git-scm.com/) was used for the version control of the website.
 - [GitHub](https://github.com/) was used to host the code of the website.
 - [GitHub Pages](https://pages.github.com/) was used to deploy my project
-- [Bootstrap 4](https://getbootstrap.com/docs/4.6/) was used for styling of navbar and carousel on home page.
 ---
 ## Design
 
@@ -401,7 +401,7 @@ The site can be accessed by this [link](https://secarrel.github.io/rupera-vineya
         
         ![Cafe Gallery mis-aligned](documentation/read_me_images/cafe_gallery_bug.png)
     - Text moves around under carousel on home page as images change:
-        + I used DevTools to try to identify the problem. It appears that the text has a dependancy of some kind on the carousel images but couldn't work out how to resolve this bug. It is more noticable on mobile display than desktop and only happens when certain images run through the carousel. 
+        + I used DevTools to try to identify the problem. It appears that height of the carousel changes as the pictures in it are slightly different heights. This means the carousel incraeses in height and pushes the text down in doing so. If a height is set for the image it is no longer responsive so I would have to add a different height at every screen size. I don't feel this warrants this excess of code and the UX isn't affected in very negative way so I have left the bug unresolved. I have learnt from this as will consider the affect of the carousel in furture projects. 
 ---
 
 
@@ -418,7 +418,7 @@ The live link can be found [here](https://secarrel.github.io/rupera-vineyard/)
 You can clone this project to make a local copy.
 In your IDE Terminal, type the following command to clone my repository:
 
-- `git clone https://github.com/secarrel/rupera-vineyard.git'
+- `git clone https://github.com/secarrel/rupera-vineyard.git`
 
 ---
 
@@ -480,8 +480,6 @@ In your IDE Terminal, type the following command to clone my repository:
     - I used [logo.com](https://logo.com/) to create the logo for the website.
     - I used [Compressjpg](https://compressjpeg.com/) to compress the images for the website to improve performance.
     - I used [FreeConvert](https://www.freeconvert.com/jpg-to-webp/download) to convert jpegs to webP to improve performance.
-    - I used []
-
 ---
 
 ## Acknowledgments
