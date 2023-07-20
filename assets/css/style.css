@@ -575,7 +575,7 @@ footer {
 /*---------------------------------------------------------------------------- Upcoming Events - MAIN*/
 /*Intro Image and Title */
 .events-intro-section {
-    background-image: url(https://images.pexels.com/photos/906002/pexels-photo-906002.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-image: url("https://images.pexels.com/photos/906002/pexels-photo-906002.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-color: #58304d;
     height: 300px;
     background-repeat: no-repeat;
@@ -661,7 +661,7 @@ footer {
 
 /*---------------------------------------------------------------------------- Contact Us - MAIN*/
 .get-in-touch {
-    background-image: url(https://images.unsplash.com/photo-1655679426348-eb31059e5869?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
+    background-image: url("https://images.unsplash.com/photo-1655679426348-eb31059e5869?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80");
     color: #8f5680;
     background-repeat: no-repeat;
     background-attachment: fixed;
